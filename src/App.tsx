@@ -1,9 +1,27 @@
-import { useState } from 'react'
+import fetch from 'cross-fetch';
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+type User = {
+  id: number;
+  name: string;
+  username: string;
+}
+
+const fetchUser = async (): Promise<User> => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users/1')
+  const json: User  = await res.json();
+  return json;
+}
+
 function App() {
   const [count, setCount] = useState(0)
+  const [user, setUser] = useState<User | null>(null)
+
+  useEffect(() => {
+    fetchUser().then(user => setUser(user));
+  }, []);
 
   return (
     <div className="App">
@@ -27,6 +45,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <span>{user?.username}</span>
     </div>
   )
 }
