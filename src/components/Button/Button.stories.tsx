@@ -1,36 +1,36 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+// eslint-disable-next-line import/named
+import { ComponentMeta, ComponentStory } from '@storybook/react'
 
-import {Button} from './Button';
+import { Button } from './Button'
 
 export default {
   title: 'Components/Button',
   component: Button
-} as ComponentMeta<typeof Button>;
+} as ComponentMeta<typeof Button>
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
-const PrimaryButton = Template.bind({});
+const PrimaryButton = Template.bind({})
 PrimaryButton.args = {
   primary: true,
-  children: 'Primary Button',
-};
+  children: 'Primary Button'
+}
 
-const SecondaryButton = Template.bind({});
+const SecondaryButton = Template.bind({})
 SecondaryButton.args = {
-  children: 'Secondary Button',
-};
+  children: 'Secondary Button'
+}
 
-const LargeButton = Template.bind({});
+const LargeButton = Template.bind({})
 LargeButton.args = {
   size: 'large',
-  children: 'Large Button',
-};
+  children: 'Large Button'
+}
 
-const SmallButton = Template.bind({});
+const SmallButton = Template.bind({})
 SmallButton.args = {
   size: 'small',
-  children: 'Small Button',
-};
+  children: 'Small Button'
+}
 
-export {PrimaryButton, SecondaryButton, LargeButton, SmallButton}
+export { PrimaryButton, SecondaryButton, LargeButton, SmallButton }

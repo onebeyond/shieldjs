@@ -1,19 +1,21 @@
-import fetch from 'cross-fetch';
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
+
+import fetch from 'cross-fetch'
+
 import reactLogo from './assets/react.svg'
 import './App.css'
-import {Button} from './components/Button';
+import { Button } from './components/Button'
 
-type User = {
-  id: number;
-  name: string;
-  username: string;
+interface User {
+  id: number
+  name: string
+  username: string
 }
 
 const fetchUser = async (): Promise<User> => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users/1')
-  const json: User  = await res.json();
-  return json;
+  const json: User = await res.json()
+  return json
 }
 
 function App () {
@@ -21,8 +23,8 @@ function App () {
   const [user, setUser] = useState<User | null>(null)
 
   useEffect(() => {
-    fetchUser().then(user => setUser(user));
-  }, []);
+    fetchUser().then(user => setUser(user))
+  }, [])
 
   return (
     <div className='App'>
