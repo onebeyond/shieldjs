@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build-storybook": "cross-env NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
   "dependencies": {
     "cross-fetch": "^3.1.5",
@@ -26,13 +26,17 @@
     "@storybook/builder-vite": "^0.2.4",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
+    "@storybook/theming": "^6.5.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^2.1.0",
+    "styled-components": "^5.3.6",
     "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
     "jsdom": "^20.0.3",
     "msw": "^0.49.0",
     "typescript": "^4.6.4",
