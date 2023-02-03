@@ -4,7 +4,7 @@ import { StyledButton } from './Button.styles'
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   primary?: boolean
-  size?: 'small' | 'medium' | 'large'
+  size?: 'small' | 'medium'
 }
 
 export const Button: React.FC<ButtonProps> = ({ size, primary, disabled, children, onClick, ...props }) => {
