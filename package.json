@@ -19,8 +19,10 @@
   "dependencies": {
     "@stitches/react": "^1.2.8",
     "cross-fetch": "^3.1.5",
+    "i18next": "^22.4.9",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
