@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-
+import { useTranslation, Trans } from 'react-i18next'
 import fetch from 'cross-fetch'
 
 import reactLogo from './assets/react.svg'
@@ -7,10 +7,15 @@ import './App.css'
 import { Button } from './components/Button'
 
 interface User {
-  id: number
-  name: string
-  username: string
+  id: number;
+  name: string;
+  username: string;
 }
+
+const languages = [
+  { code: 'en', icon: '🇬🇧' },
+  { code: 'es', icon: '🇪🇸' }
+]
 
 const fetchUser = async (): Promise<User> => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users/1')
@@ -21,33 +26,44 @@ const fetchUser = async (): Promise<User> => {
 function App () {
   const [count, setCount] = useState(0)
   const [user, setUser] = useState<User | null>(null)
+  const { t, i18n } = useTranslation()
+
+  const handleOnLang = (code: string) => i18n.changeLanguage(code).then()
 
   useEffect(() => {
-    fetchUser().then(user => setUser(user))
+    fetchUser().then((user) => setUser(user))
   }, [])
 
   return (
-    <div className='App'>
+    <div className="App">
       <div>
-        <a href='https://vitejs.dev' target='_blank' rel='noreferrer'>
-          <img src='/vite.svg' className='logo' alt='Vite logo' />
+        {languages?.map(({ code, icon }) => (
+          <button className="language" key={code} onClick={() => handleOnLang(code)}>
+            {icon}
+          </button>
+        ))}
+      </div>
+      <div>
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+          <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
-        <a href='https://reactjs.org' target='_blank' rel='noreferrer'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+          <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>{t('Title')}</h1>
       <div className="card">
         <Button primary onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          {t('TotalCount', { count })}
         </Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <Trans
+          i18nKey="EditCode"
+          parent="p"
+          values={{ filename: 'src/App.tsx' }}
+          components={{ code: <code /> }}
+        />
       </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className="read-the-docs">{t('LearnMore')}</p>
       <span>{user?.username}</span>
     </div>
   )
