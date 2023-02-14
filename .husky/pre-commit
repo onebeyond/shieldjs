@@ -3,3 +3,4 @@
 
 npm run eslint
 npm run check-deps
+git add COPYRIGHT.md
