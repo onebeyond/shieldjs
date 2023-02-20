@@ -3,8 +3,10 @@ import { useTranslation, Trans } from 'react-i18next'
 import fetch from 'cross-fetch'
 
 import reactLogo from './assets/react.svg'
+import shieldjsLogo from './assets/shieldjs.svg'
 import './App.css'
 import { Button } from './components/Button'
+import { Link } from 'react-router-dom'
 
 interface User {
   id: number;
@@ -44,6 +46,9 @@ function App () {
         ))}
       </div>
       <div>
+        <Link to="/about">
+          <img src={shieldjsLogo} className="logo shieldjs" alt="ShieldJS logo" />
+        </Link>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
@@ -64,6 +69,7 @@ function App () {
         />
       </div>
       <p className="read-the-docs">{t('LearnMore')}</p>
+      <Link to="/anyway">{t('GoWaste')}</Link><br/>
       <span>{user?.username}</span>
     </div>
   )
