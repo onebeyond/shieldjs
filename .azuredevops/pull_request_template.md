@@ -2,8 +2,6 @@
 
 ### Describe your changes:
 
-<br>
-
 ### Issue ticket number and link:
 
 - Number:
