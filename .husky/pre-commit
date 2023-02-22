@@ -2,3 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run eslint
+npm run check-deps
+git add COPYRIGHT.md
