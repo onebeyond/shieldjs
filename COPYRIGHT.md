@@ -126,6 +126,7 @@ This application makes use of the following open source packages:
 | @babel/preset-typescript | 7.18.6 | MIT | https://github.com/babel/babel |
 | @babel/register | 7.18.9 | MIT | https://github.com/babel/babel |
 | @babel/runtime | 7.20.13 | MIT | https://github.com/babel/babel |
+| @babel/runtime | 7.21.0 | MIT | https://github.com/babel/babel |
 | @babel/runtime | 7.5.5 | MIT | https://github.com/babel/babel/tree/master/packages/babel-runtime |
 | @babel/runtime | 7.7.2 | MIT | https://github.com/babel/babel |
 | @babel/template | 7.20.7 | MIT | https://github.com/babel/babel |
@@ -198,6 +199,7 @@ This application makes use of the following open source packages:
 | @npmcli/move-file | 1.1.2 | MIT | https://github.com/npm/move-file |
 | @open-draft/until | 1.0.3 | MIT | https://github.com/open-draft/until |
 | @pmmmwh/react-refresh-webpack-plugin | 0.5.10 | MIT | https://github.com/pmmmwh/react-refresh-webpack-plugin |
+| @remix-run/router | 1.3.2 | MIT | https://github.com/remix-run/react-router |
 | @rollup/pluginutils | 4.2.1 | MIT | https://github.com/rollup/plugins |
 | @sinclair/typebox | 0.25.21 | MIT | https://github.com/sinclairzx81/typebox |
 | @stitches/react | 1.2.8 | MIT | https://github.com/modulz/stitches |
@@ -854,6 +856,7 @@ This application makes use of the following open source packages:
 | html-entities | 2.3.3 | MIT | https://github.com/mdevils/html-entities |
 | html-escaper | 2.0.2 | MIT | https://github.com/WebReflection/html-escaper |
 | html-minifier-terser | 5.1.1 | MIT | https://github.com/DanielRuf/html-minifier-terser |
+| html-parse-stringify | 3.0.1 | MIT | https://github.com/henrikjoreteg/html-parse-stringify |
 | html-tags | 3.2.0 | MIT | https://github.com/sindresorhus/html-tags |
 | html-void-elements | 1.0.5 | MIT | https://github.com/wooorm/html-void-elements |
 | html-webpack-plugin | 4.5.2 | MIT | https://github.com/jantimon/html-webpack-plugin |
@@ -866,6 +869,7 @@ This application makes use of the following open source packages:
 | human-signals | 2.1.0 | Apache-2.0 | https://github.com/ehmicky/human-signals |
 | husky | 8.0.3 | MIT | https://github.com/typicode/husky |
 | hygen | 6.2.11 | MIT | https://github.com/jondot/hygen |
+| i18next | 22.4.10 | MIT | https://github.com/i18next/i18next |
 | iconv-lite | 0.4.24 | MIT | https://github.com/ashtuchkin/iconv-lite |
 | iconv-lite | 0.6.3 | MIT | https://github.com/ashtuchkin/iconv-lite |
 | icss-utils | 4.1.1 | ISC | https://github.com/css-modules/icss-utils |
@@ -874,6 +878,7 @@ This application makes use of the following open source packages:
 | ignore-walk | 4.0.1 | ISC | https://github.com/isaacs/ignore-walk |
 | ignore | 4.0.6 | MIT | https://github.com/kaelzhang/node-ignore |
 | ignore | 5.2.4 | MIT | https://github.com/kaelzhang/node-ignore |
+| immediate | 3.0.6 | MIT | https://github.com/calvinmetcalf/immediate |
 | import-fresh | 3.3.0 | MIT | https://github.com/sindresorhus/import-fresh |
 | imurmurhash | 0.1.4 | MIT | https://github.com/jensyt/imurmurhash-js |
 | indent-string | 2.1.0 | MIT | https://github.com/sindresorhus/indent-string |
@@ -1021,6 +1026,7 @@ This application makes use of the following open source packages:
 | levn | 0.3.0 | MIT | https://github.com/gkz/levn |
 | levn | 0.4.1 | MIT | https://github.com/gkz/levn |
 | license-checker | 25.0.1 | BSD-3-Clause | https://github.com/davglass/license-checker |
+| lie | 3.1.1 | MIT | https://github.com/calvinmetcalf/lie |
 | lines-and-columns | 1.2.4 | MIT | https://github.com/eventualbuddha/lines-and-columns |
 | load-json-file | 1.1.0 | MIT | https://github.com/sindresorhus/load-json-file |
 | loader-runner | 2.4.0 | MIT | https://github.com/webpack/loader-runner |
@@ -1028,6 +1034,7 @@ This application makes use of the following open source packages:
 | loader-utils | 1.4.2 | MIT | https://github.com/webpack/loader-utils |
 | loader-utils | 2.0.4 | MIT | https://github.com/webpack/loader-utils |
 | local-pkg | 0.4.3 | MIT | https://github.com/antfu/local-pkg |
+| localforage | 1.10.0 | Apache-2.0 | https://github.com/localForage/localForage |
 | locate-path | 3.0.0 | MIT | https://github.com/sindresorhus/locate-path |
 | locate-path | 5.0.0 | MIT | https://github.com/sindresorhus/locate-path |
 | locate-path | 6.0.0 | MIT | https://github.com/sindresorhus/locate-path |
@@ -1064,6 +1071,7 @@ This application makes use of the following open source packages:
 | map-or-similar | 1.5.0 | MIT | https://github.com/thinkloop/map-or-similar |
 | map-visit | 1.0.0 | MIT | https://github.com/jonschlinkert/map-visit |
 | markdown-escapes | 1.0.4 | MIT | https://github.com/wooorm/markdown-escapes |
+| match-sorter | 6.3.1 | MIT | https://github.com/kentcdodds/match-sorter |
 | md5.js | 1.3.5 | MIT | https://github.com/crypto-browserify/md5.js |
 | mdast-squeeze-paragraphs | 4.0.0 | MIT | https://github.com/syntax-tree/mdast-squeeze-paragraphs |
 | mdast-util-definitions | 4.0.0 | MIT | https://github.com/syntax-tree/mdast-util-definitions |
@@ -1150,6 +1158,7 @@ This application makes use of the following open source packages:
 | object-inspect | 1.12.3 | MIT | https://github.com/inspect-js/object-inspect |
 | object-is | 1.1.5 | MIT | https://github.com/es-shims/object-is |
 | object-keys | 1.1.1 | MIT | https://github.com/ljharb/object-keys |
+| object-path | 0.6.0 | MIT | https://github.com/mariocasciaro/object-path |
 | object-visit | 1.0.1 | MIT | https://github.com/jonschlinkert/object-visit |
 | object.assign | 4.1.4 | MIT | https://github.com/ljharb/object.assign |
 | object.entries | 1.1.6 | MIT | https://github.com/es-shims/Object.entries |
@@ -1288,6 +1297,7 @@ This application makes use of the following open source packages:
 | react-docgen | 6.0.0-alpha.3 | MIT | https://github.com/reactjs/react-docgen |
 | react-dom | 18.2.0 | MIT | https://github.com/facebook/react |
 | react-element-to-jsx-string | 14.3.4 | MIT | https://github.com/algolia/react-element-to-jsx-string |
+| react-i18next | 12.1.5 | MIT | https://github.com/i18next/react-i18next |
 | react-inspector | 5.1.1 | MIT | https://github.com/xyc/react-inspector |
 | react-is | 16.13.1 | MIT | https://github.com/facebook/react |
 | react-is | 17.0.2 | MIT | https://github.com/facebook/react |
@@ -1295,6 +1305,8 @@ This application makes use of the following open source packages:
 | react-merge-refs | 1.1.0 | MIT | https://github.com/gregberge/react-merge-refs |
 | react-refresh | 0.11.0 | MIT | https://github.com/facebook/react |
 | react-refresh | 0.14.0 | MIT | https://github.com/facebook/react |
+| react-router-dom | 6.8.1 | MIT | https://github.com/remix-run/react-router |
+| react-router | 6.8.1 | MIT | https://github.com/remix-run/react-router |
 | react | 18.2.0 | MIT | https://github.com/facebook/react |
 | read-installed | 4.0.3 | ISC | https://github.com/isaacs/read-installed |
 | read-package-json | 2.1.2 | ISC | https://github.com/npm/read-package-json |
@@ -1326,6 +1338,7 @@ This application makes use of the following open source packages:
 | remark-parse | 8.0.3 | MIT | https://github.com/remarkjs/remark/tree/main/packages/remark-parse |
 | remark-slug | 6.1.0 | MIT | https://github.com/remarkjs/remark-slug |
 | remark-squeeze-paragraphs | 4.0.0 | MIT | https://github.com/remarkjs/remark-squeeze-paragraphs |
+| remove-accents | 0.4.2 | MIT | https://github.com/tyxla/remove-accents |
 | remove-trailing-separator | 1.1.0 | ISC | https://github.com/darsain/remove-trailing-separator |
 | renderkid | 2.0.7 | MIT | https://github.com/AriaMinaei/RenderKid |
 | repeat-element | 1.1.4 | MIT | https://github.com/jonschlinkert/repeat-element |
@@ -1397,6 +1410,7 @@ This application makes use of the following open source packages:
 | snapdragon-node | 2.1.1 | MIT | https://github.com/jonschlinkert/snapdragon-node |
 | snapdragon-util | 3.0.1 | MIT | https://github.com/jonschlinkert/snapdragon-util |
 | snapdragon | 0.8.2 | MIT | https://github.com/jonschlinkert/snapdragon |
+| sort-by | 1.2.0 | MIT | https://github.com/kvnneff/sort-by |
 | source-list-map | 2.0.1 | MIT | https://github.com/webpack/source-list-map |
 | source-map-js | 1.0.2 | BSD-3-Clause | https://github.com/7rulnik/source-map-js |
 | source-map-resolve | 0.5.3 | MIT | https://github.com/lydell/source-map-resolve |
@@ -1580,6 +1594,7 @@ This application makes use of the following open source packages:
 | vite | 4.1.1 | MIT | https://github.com/vitejs/vite |
 | vitest | 0.25.8 | MIT | https://github.com/vitest-dev/vitest |
 | vm-browserify | 1.1.2 | MIT | https://github.com/substack/vm-browserify |
+| void-elements | 3.1.0 | MIT | https://github.com/pugjs/void-elements |
 | w3c-xmlserializer | 4.0.0 | MIT | https://github.com/jsdom/w3c-xmlserializer |
 | walker | 1.0.8 | Apache-2.0 | https://github.com/daaku/nodejs-walker |
 | watchpack-chokidar2 | 2.0.1 | MIT | https://github.com/webpack/watchpack |
