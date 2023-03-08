@@ -25,7 +25,7 @@ export const StyledButton = styled('button', {
         p: '7px 25px 8px',
         '&:active': '5px 23px 6px'
       },
-      medium: {
+      large: {
         p: '9px 30px 11px',
         '&:active': '7px 28px 9px'
       }

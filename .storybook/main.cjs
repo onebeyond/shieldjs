@@ -1,3 +1,6 @@
+const path = require('path');
+const { loadConfigFromFile, mergeConfig } = require("vite");
+
 module.exports = {
   "stories": [
     "../src/**/*.stories.mdx",
@@ -14,5 +17,17 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
-  }
+  },
+  // https://github.com/storybookjs/builder-vite/issues/85#issuecomment-900831050
+  async viteFinal(config, { configType }) {
+    const { config: userConfig } = await loadConfigFromFile(
+      path.resolve(__dirname, "../vite.config.ts")
+    );
+
+    return mergeConfig(config, {
+      ...userConfig,
+      // manually specify plugins to avoid conflict
+      plugins: [],
+    });
+  },
 }
