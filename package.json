@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
+    "@commitlint/config-conventional": "^17.6.1",
     "@guidesmiths/license-checker": "~2.0.1",
     "@playwright/test": "^1.32.1",
     "@storybook/addon-actions": "^6.5.16",
