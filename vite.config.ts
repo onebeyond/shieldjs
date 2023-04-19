@@ -20,6 +20,7 @@ export default defineConfig({
       reportsDirectory: './tests/unit/coverage'
     },
   },
+  envPrefix:'REACT_APP',
   server: {
     open: true
   },
