@@ -12,7 +12,7 @@ import {
 const resources = {
   en: {
     translation: {
-      Title: 'Vite + React',
+      Title: 'Vite + React = Shield.js',
       LearnMore: 'Click on the Vite and React logos to learn more',
       TotalCount_one: 'You have clicked {{count}} time',
       TotalCount_other: 'You have clicked {{count}} times',

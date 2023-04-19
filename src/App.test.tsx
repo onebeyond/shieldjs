@@ -7,5 +7,5 @@ import { MemoryRouter } from 'react-router-dom'
 
 test('<App />', async () => {
   render(<App />, { wrapper: MemoryRouter })
-  expect(await screen.findByText('MSWUser')).toBeInTheDocument()
+  expect(await screen.findByText('Vite + React = Shield.js')).toBeInTheDocument()
 })

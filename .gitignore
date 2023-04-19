@@ -25,3 +25,9 @@ dist-ssr
 
 #build
 storybook-static
+
+# Testing
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/tests/unit/coverage
