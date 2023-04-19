@@ -1629,7 +1629,7 @@
   version "1.0.3"
   resolved "https://registry.npmjs.org/@open-draft/until/-/until-1.0.3.tgz"
 
-"@playwright/test@^1.32.1":
+"@playwright/test@^1.32.3":
   version "1.32.3"
   resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.32.3.tgz#75be8346d4ef289896835e1d2a86fdbe3d9be92a"
   dependencies:
