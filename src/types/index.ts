@@ -1,2 +1,2 @@
 export type { Character } from './Character'
-export type { ApiResponse } from './ApiResponse'
+export type { RickApiResponse } from './RickApiResponse'
