@@ -1,39 +1,31 @@
 import { useEffect, useState } from 'react'
 import { useTranslation, Trans } from 'react-i18next'
-import fetch from 'cross-fetch'
 
 import reactLogo from './assets/react.svg'
 import shieldjsLogo from './assets/shieldjs.svg'
 import './App.css'
 import { Button } from './components/Button'
 import { Link } from 'react-router-dom'
-
-interface User {
-  id: number;
-  name: string;
-  username: string;
-}
+import { getCharacter } from './api/rickApi'
+import { Character } from './types'
+import { Card } from './components/Card'
 
 const languages = [
   { code: 'en', icon: '🇬🇧' },
   { code: 'es', icon: '🇪🇸' }
 ]
 
-const fetchUser = async (): Promise<User> => {
-  const res = await fetch('https://jsonplaceholder.typicode.com/users/1')
-  const json: User = await res.json()
-  return json
-}
-
 function App () {
   const [count, setCount] = useState(0)
-  const [user, setUser] = useState<User | null>(null)
+  const [character, setCharacter] = useState<Character | null>(null)
   const { t, i18n } = useTranslation()
 
   const handleOnLang = (code: string) => i18n.changeLanguage(code).then()
 
+  const CHARACTER_ID = 1
+
   useEffect(() => {
-    fetchUser().then((user) => setUser(user))
+    getCharacter(CHARACTER_ID).then((character) => setCharacter(character))
   }, [])
 
   return (
@@ -61,6 +53,9 @@ function App () {
         <Button primary onClick={() => setCount((count) => count + 1)}>
           {t('TotalCount', { count })}
         </Button>
+        <Card image={character?.image || ''} onClick={() => console.log('click')}>
+          <h2>{character?.name}</h2>
+        </Card>
         <Trans
           i18nKey="EditCode"
           parent="p"
@@ -70,7 +65,6 @@ function App () {
       </div>
       <p className="read-the-docs">{t('LearnMore')}</p>
       <Link to="/anyway">{t('GoWaste')}</Link><br/>
-      <span>{user?.username}</span>
     </div>
   )
 }
