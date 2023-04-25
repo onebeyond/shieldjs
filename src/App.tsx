@@ -6,7 +6,9 @@ import shieldjsLogo from './assets/shieldjs.svg'
 import './App.css'
 import { Button } from './components/Button'
 import { Link } from 'react-router-dom'
-import { getCharacters } from './api/rickApi'
+import { getCharacter } from './api/rickApi/rickApi'
+import { Character } from './types'
+import { Card } from './components/Card'
 
 const languages = [
   { code: 'en', icon: '🇬🇧' },
@@ -15,12 +17,15 @@ const languages = [
 
 function App () {
   const [count, setCount] = useState(0)
+  const [character, setCharacter] = useState<Character | null>(null)
   const { t, i18n } = useTranslation()
 
   const handleOnLang = (code: string) => i18n.changeLanguage(code).then()
 
+  const CHARACTER_ID = 1
+
   useEffect(() => {
-    getCharacters().then((characters) => console.log(characters))
+    getCharacter(CHARACTER_ID).then((character) => setCharacter(character))
   }, [])
 
   return (
@@ -48,6 +53,9 @@ function App () {
         <Button primary onClick={() => setCount((count) => count + 1)}>
           {t('TotalCount', { count })}
         </Button>
+        <Card image={character?.image || ''} onClick={() => console.log('click')}>
+          <h2>{character?.name}</h2>
+        </Card>
         <Trans
           i18nKey="EditCode"
           parent="p"

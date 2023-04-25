@@ -1,7 +1,8 @@
 import axios from 'axios'
 
-const api = axios.create({
-  baseURL: import.meta.env.REACT_APP_API_URL || 'https://rickandmortyapi.com/api'
+const api = ({ url, options }: {url: string, options?: object}) => axios.create({
+  baseURL: url,
+  ...options
 })
 
 export default api
