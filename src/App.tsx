@@ -6,7 +6,7 @@ import shieldjsLogo from './assets/shieldjs.svg'
 import './App.css'
 import { Button } from './components/Button'
 import { Link } from 'react-router-dom'
-import { getCharacter } from './api/rickApi/rickApi'
+import { getCharacter } from './api/rickApi'
 import { Character } from './types'
 import { Card } from './components/Card'
 
