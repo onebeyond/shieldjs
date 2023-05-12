@@ -9,6 +9,7 @@ import { getCharacter } from '@/api/rickApi'
 import { Character } from '@/types'
 import { Card } from '@/components/Card'
 import { Button } from '@/components/Button'
+import { MainLayout } from '@/layout/MainLayout/MainLayout'
 
 const languages = [
   { code: 'en', icon: '🇬🇧' },
@@ -29,7 +30,7 @@ function FetchExample () {
   }, [])
 
   return (
-    <div className="App">
+    <MainLayout>
       <div>
         {languages?.map(({ code, icon }) => (
           <button className="language" key={code} onClick={() => handleOnLang(code)}>
@@ -65,7 +66,7 @@ function FetchExample () {
       </div>
       <p className="read-the-docs">{t('LearnMore')}</p>
       <Link to="/anyway">{t('GoWaste')}</Link><br/>
-    </div>
+    </MainLayout>
   )
 }
 

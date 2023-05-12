@@ -17,7 +17,7 @@ export const NavBar: React.FC = () => {
 
   return (
     <StyledNav>
-      <Link to="/about">
+      <Link to="/">
         <StyledImage src={shieldjsLogo} alt="ShieldJS logo" />
       </Link>
       <StyledDesktopNav>
