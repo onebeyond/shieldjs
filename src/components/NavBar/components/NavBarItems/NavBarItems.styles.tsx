@@ -7,10 +7,15 @@ export const StyledNavItem = styled('li', {
 
   '& a': {
     textDecoration: 'none',
-    color: 'white'
+    color: 'white',
+
+    '&:hover': {
+      color: 'black'
+    }
   },
   '&:hover': {
-    background: '#61DAFB'
+    background: '#61DAFB',
+    transition: 'all .5s ease-in-out'
   },
   borderRadius: '20px',
   margin: '0 1rem',

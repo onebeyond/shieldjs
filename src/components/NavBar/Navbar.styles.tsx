@@ -73,6 +73,7 @@ export const StyledImage = styled('img', {
 
 export const StyledNavButton = styled('button', {
   display: 'none',
+  color: 'black',
   borderRadius: '40px',
   border: '1px solid rgb(97, 218, 251)',
   padding: '0.5rem 1rem',
