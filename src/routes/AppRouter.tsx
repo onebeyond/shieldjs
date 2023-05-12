@@ -1,8 +1,9 @@
 import { ReactElement } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import App from '../App'
 import { About } from '../pages/About'
 import { NoMatch } from '../pages/NoMatch'
+import FetchExample from '@/pages/FetchExample/FetchExample'
+import { Home } from '@/pages/Home'
 
 interface RouteType {
   key: string;
@@ -12,9 +13,14 @@ interface RouteType {
 
 const routes: RouteType[] = [
   {
-    key: 'app',
+    key: 'home',
     path: '/',
-    element: <App />
+    element: <Home />
+  },
+  {
+    key: 'fetch-example',
+    path: '/fetch-example',
+    element: <FetchExample/>
   },
   {
     key: 'about',
