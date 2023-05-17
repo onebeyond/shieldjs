@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 style="display: flex;flex-direction: column;align-items: center">
   <br>
   <a href="https://github.com/onebeyond/shieldjs"><img src="./src/assets/shieldjs.svg" alt="Shield.js" width="200"></a>
   <br>

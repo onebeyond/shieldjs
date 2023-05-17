@@ -22,7 +22,8 @@ export default defineConfig({
   },
   envPrefix:'REACT_APP',
   server: {
-    open: true
+    open: true,
+    port: 3000
   },
   resolve: {
     alias: {

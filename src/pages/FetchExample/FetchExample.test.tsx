@@ -1,11 +1,10 @@
 import { render, screen } from '@testing-library/react'
 import { expect, test } from 'vitest'
 
-import App from './App'
-
 import { MemoryRouter } from 'react-router-dom'
+import FetchExample from '@/pages/FetchExample/FetchExample'
 
-test('<App />', async () => {
-  render(<App />, { wrapper: MemoryRouter })
+test('<FetchExample />', async () => {
+  render(<FetchExample />, { wrapper: MemoryRouter })
   expect(await screen.findByText('Vite + React = Shield.js')).toBeInTheDocument()
 })
