@@ -137,7 +137,7 @@ This application makes use of the following open source packages:
 | @cnakazawa/watch | 1.0.4 | Apache-2.0 | https://github.com/mikeal/watch |
 | @colors/colors | 1.5.0 | MIT | https://github.com/DABH/colors.js |
 | @commitlint/cli | 17.4.4 | MIT | https://github.com/conventional-changelog/commitlint |
-| @commitlint/config-conventional | 17.4.4 | MIT | https://github.com/conventional-changelog/commitlint |
+| @commitlint/config-conventional | 17.6.1 | MIT | https://github.com/conventional-changelog/commitlint |
 | @commitlint/config-validator | 17.4.4 | MIT | https://github.com/conventional-changelog/commitlint |
 | @commitlint/ensure | 17.4.4 | MIT | https://github.com/conventional-changelog/commitlint |
 | @commitlint/execute-rule | 17.4.0 | MIT | https://github.com/conventional-changelog/commitlint |
@@ -160,7 +160,9 @@ This application makes use of the following open source packages:
 | @devtools-ds/themes | 1.2.1 | MIT | https://github.com/intuit/devtools-ds |
 | @devtools-ds/tree | 1.2.1 | MIT | https://github.com/intuit/devtools-ds |
 | @discoveryjs/json-ext | 0.5.7 | MIT | https://github.com/discoveryjs/json-ext |
-| @esbuild/darwin-x64 | 0.16.17 | MIT | https://github.com/evanw/esbuild |
+| @esbuild/darwin-arm64 | 0.16.17 | MIT | https://github.com/evanw/esbuild |
+| @eslint-community/eslint-utils | 4.4.0 | MIT | https://github.com/eslint-community/eslint-utils |
+| @eslint-community/regexpp | 4.5.0 | MIT | https://github.com/eslint-community/regexpp |
 | @eslint/eslintrc | 1.4.1 | MIT | https://github.com/eslint/eslintrc |
 | @eslint/eslintrc | 2.0.0 | MIT | https://github.com/eslint/eslintrc |
 | @eslint/js | 8.35.0 | MIT | https://github.com/eslint/eslint |
@@ -200,7 +202,7 @@ This application makes use of the following open source packages:
 | @npmcli/fs | 1.1.1 | ISC |  |
 | @npmcli/move-file | 1.1.2 | MIT | https://github.com/npm/move-file |
 | @open-draft/until | 1.0.3 | MIT | https://github.com/open-draft/until |
-| @playwright/test | 1.32.1 | Apache-2.0 | https://github.com/Microsoft/playwright |
+| @playwright/test | 1.32.3 | Apache-2.0 | https://github.com/Microsoft/playwright |
 | @pmmmwh/react-refresh-webpack-plugin | 0.5.10 | MIT | https://github.com/pmmmwh/react-refresh-webpack-plugin |
 | @remix-run/router | 1.3.3 | MIT | https://github.com/remix-run/react-router |
 | @sinclair/typebox | 0.25.24 | MIT | https://github.com/sinclairzx81/typebox |
@@ -316,14 +318,18 @@ This application makes use of the following open source packages:
 | @types/yargs | 15.0.15 | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped |
 | @types/yargs | 16.0.5 | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped |
 | @types/yargs | 17.0.22 | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped |
-| @typescript-eslint/eslint-plugin | 5.54.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/eslint-plugin | 5.59.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
 | @typescript-eslint/parser | 5.54.0 | BSD-2-Clause | https://github.com/typescript-eslint/typescript-eslint |
 | @typescript-eslint/scope-manager | 5.54.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
-| @typescript-eslint/type-utils | 5.54.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/scope-manager | 5.59.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/type-utils | 5.59.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
 | @typescript-eslint/types | 5.54.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/types | 5.59.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
 | @typescript-eslint/typescript-estree | 5.54.0 | BSD-2-Clause | https://github.com/typescript-eslint/typescript-eslint |
-| @typescript-eslint/utils | 5.54.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/typescript-estree | 5.59.0 | BSD-2-Clause | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/utils | 5.59.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
 | @typescript-eslint/visitor-keys | 5.54.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
+| @typescript-eslint/visitor-keys | 5.59.0 | MIT | https://github.com/typescript-eslint/typescript-eslint |
 | @vitejs/plugin-react | 3.1.0 | MIT | https://github.com/vitejs/vite-plugin-react |
 | @vitest/coverage-istanbul | 0.29.8 | MIT | https://github.com/vitest-dev/vitest |
 | @vitest/expect | 0.29.2 | MIT | https://github.com/vitest-dev/vitest |
@@ -928,7 +934,7 @@ This application makes use of the following open source packages:
 | is-lower-case | 1.1.3 | MIT | https://github.com/blakeembrey/is-lower-case |
 | is-map | 2.0.2 | MIT | https://github.com/inspect-js/is-map |
 | is-negative-zero | 2.0.2 | MIT | https://github.com/inspect-js/is-negative-zero |
-| is-node-process | 1.0.1 | MIT |  |
+| is-node-process | 1.2.0 | MIT | https://github.com/mswjs/is-node-process |
 | is-number-object | 1.0.7 | MIT | https://github.com/inspect-js/is-number-object |
 | is-number | 3.0.0 | MIT | https://github.com/jonschlinkert/is-number |
 | is-number | 7.0.0 | MIT | https://github.com/jonschlinkert/is-number |
@@ -1115,7 +1121,7 @@ This application makes use of the following open source packages:
 | ms | 2.1.1 | MIT | https://github.com/zeit/ms |
 | ms | 2.1.2 | MIT | https://github.com/zeit/ms |
 | ms | 2.1.3 | MIT | https://github.com/vercel/ms |
-| msw | 1.1.0 | MIT | https://github.com/mswjs/msw |
+| msw | 1.2.1 | MIT | https://github.com/mswjs/msw |
 | mute-stream | 0.0.8 | ISC | https://github.com/isaacs/mute-stream |
 | nan | 2.17.0 | MIT | https://github.com/nodejs/nan |
 | nanoid | 3.3.4 | MIT | https://github.com/ai/nanoid |
@@ -1174,7 +1180,7 @@ This application makes use of the following open source packages:
 | os-homedir | 1.0.2 | MIT | https://github.com/sindresorhus/os-homedir |
 | os-tmpdir | 1.0.2 | MIT | https://github.com/sindresorhus/os-tmpdir |
 | osenv | 0.1.5 | ISC | https://github.com/npm/osenv |
-| outvariant | 1.3.0 | MIT | https://github.com/open-draft/outvariant |
+| outvariant | 1.4.0 | MIT | https://github.com/open-draft/outvariant |
 | p-all | 2.1.0 | MIT | https://github.com/sindresorhus/p-all |
 | p-event | 4.2.0 | MIT | https://github.com/sindresorhus/p-event |
 | p-filter | 2.1.0 | MIT | https://github.com/sindresorhus/p-filter |
@@ -1236,7 +1242,7 @@ This application makes use of the following open source packages:
 | pkg-dir | 4.2.0 | MIT | https://github.com/sindresorhus/pkg-dir |
 | pkg-dir | 5.0.0 | MIT | https://github.com/sindresorhus/pkg-dir |
 | pkg-types | 1.0.2 | MIT | https://github.com/unjs/pkg-types |
-| playwright-core | 1.32.1 | Apache-2.0 | https://github.com/Microsoft/playwright |
+| playwright-core | 1.32.3 | Apache-2.0 | https://github.com/Microsoft/playwright |
 | pnp-webpack-plugin | 1.6.4 | MIT | https://github.com/arcanis/pnp-webpack-plugin |
 | polished | 4.2.2 | MIT | https://github.com/styled-components/polished |
 | posix-character-classes | 0.1.1 | MIT | https://github.com/jonschlinkert/posix-character-classes |
@@ -1378,6 +1384,7 @@ This application makes use of the following open source packages:
 | semver | 5.7.1 | ISC | https://github.com/npm/node-semver |
 | semver | 6.3.0 | ISC | https://github.com/npm/node-semver |
 | semver | 7.3.8 | ISC | https://github.com/npm/node-semver |
+| semver | 7.5.0 | ISC | https://github.com/npm/node-semver |
 | send | 0.18.0 | MIT | https://github.com/pillarjs/send |
 | sentence-case | 2.1.1 | MIT | https://github.com/blakeembrey/sentence-case |
 | serialize-javascript | 4.0.0 | BSD-3-Clause | https://github.com/yahoo/serialize-javascript |
