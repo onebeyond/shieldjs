@@ -4,7 +4,7 @@ export const FooterWrapper = styled('footer', {
   backgroundColor: 'transparent',
   borderTop: '1px solid #ddd',
   color: '#fff',
-  margin: ' 0 50px',
+  margin: ' 0 3.12rem',
   padding: '1.5rem 0',
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
@@ -29,8 +29,8 @@ export const RightColumn = styled('div', {
 })
 
 export const MenuList = styled('ul', {
-  padding: '0',
-  margin: '0',
+  padding: '0', // Add to reset.css
+  margin: '0', // Add to reset.css
   display: 'flex',
   justifyContent: 'space-around',
   alignItems: 'center',
@@ -46,8 +46,8 @@ export const MenuListItem = styled('li', {
 
 export const Subtitle = styled('h3', {
   color: '#fff',
-  padding: '0',
-  margin: '0',
+  padding: '0', // Add to reset.css
+  margin: '0', // Add to reset.css
   fontSize: '1.5rem',
   fontFamily: 'InriaBold'
 })
