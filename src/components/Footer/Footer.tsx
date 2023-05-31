@@ -12,26 +12,28 @@ import { t } from 'i18next'
 
 const Footer = () => {
   return (
-          <FooterWrapper>
-            <LeftColumn>
-              <Title> {t('Footer.ShieldTitle')}</Title>
-              <Subtitle>{t('Footer.OneBeyondSubtitle')}</Subtitle>
-              <OneBeyondIcon src={oneBeyondLogo} alt='one-beyond'/>
-            </LeftColumn>
-            <RightColumn>
-              <Title>{t('Footer.ContactUsTitle')}</Title>
-                <MenuList>
-                  <MenuListItem>
-                    <LinkIcon src={slackLogo} alt='slack' />
-                  </MenuListItem>
-                  <MenuListItem>
-                    <a href="https://github.com/onebeyond/shieldjs" target="_blank" rel="noreferrer">
-                      <LinkIcon src={githubLogo} alt='github'/>
-                    </a>
-                  </MenuListItem>
-              </MenuList>
-            </RightColumn>
-          </FooterWrapper>
+    <FooterWrapper>
+      <LeftColumn>
+        <Title> {t('Footer.ShieldTitle')}</Title>
+        <Subtitle>{t('Footer.OneBeyondSubtitle')}</Subtitle>
+        <OneBeyondIcon src={oneBeyondLogo} alt='one-beyond'/>
+      </LeftColumn>
+      <RightColumn>
+        <Title>{t('Footer.ContactUsTitle')}</Title>
+        <MenuList>
+          <MenuListItem>
+            <a href="#" target="_blank" rel="noreferrer">
+              <LinkIcon src={slackLogo} alt='slack'/>
+            </a>
+          </MenuListItem>
+          <MenuListItem>
+            <a href="https://github.com/onebeyond/shieldjs" target="_blank" rel="noreferrer">
+              <LinkIcon src={githubLogo} alt='github'/>
+            </a>
+          </MenuListItem>
+        </MenuList>
+      </RightColumn>
+    </FooterWrapper>
   )
 }
 
