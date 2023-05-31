@@ -1,6 +1,6 @@
 import { styled } from '@/stitches.config'
 
-export const StyledFooter = styled('footer', {
+export const FooterWrapper = styled('footer', {
   backgroundColor: 'transparent',
   borderTop: '1px solid #ddd',
   color: '#fff',
@@ -11,7 +11,7 @@ export const StyledFooter = styled('footer', {
   justifyContent: 'space-between'
 })
 
-export const StyledColumnLeft = styled('div', {
+export const LeftColumn = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   width: '100%',
@@ -19,7 +19,7 @@ export const StyledColumnLeft = styled('div', {
   gap: '1.5rem'
 })
 
-export const StyledColumnRight = styled('div', {
+export const RightColumn = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   width: '100%',
@@ -28,7 +28,7 @@ export const StyledColumnRight = styled('div', {
   gap: '1.5rem'
 })
 
-export const StyledMenu = styled('ul', {
+export const MenuList = styled('ul', {
   padding: '0',
   margin: '0',
   display: 'flex',
@@ -37,14 +37,14 @@ export const StyledMenu = styled('ul', {
   gap: '70px'
 })
 
-export const StyledMenuItem = styled('li', {
+export const MenuListItem = styled('li', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   marginBottom: '1.5rem'
 })
 
-export const StyledSubtitle = styled('h3', {
+export const Subtitle = styled('h3', {
   color: '#fff',
   padding: '0',
   margin: '0',
@@ -52,9 +52,17 @@ export const StyledSubtitle = styled('h3', {
   fontFamily: 'InriaBold'
 })
 
-export const StyledTitle = styled('h2', {
+export const Title = styled('h2', {
   color: '#fff',
   fontSize: '2.25rem',
   margin: '0',
   padding: '0'
+})
+
+export const OneBeyondIcon = styled('img', {
+  height: '4.6rem'
+})
+
+export const LinkIcon = styled('img', {
+  height: '2.7rem'
 })

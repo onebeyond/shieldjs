@@ -27,7 +27,12 @@ const resources = {
       AboutTextOne: textOneEN,
       AboutTextTwo: textTwoEN,
       AboutTextThree: textThreeEN,
-      AboutConclusion: conclusionEN
+      AboutConclusion: conclusionEN,
+      Footer: {
+        ShieldTitle: 'Shield.js',
+        OneBeyondSubtitle: 'Since 2023 - One Beyond',
+        ContactUsTitle: 'Contact us'
+      }
     }
   },
   es: {
