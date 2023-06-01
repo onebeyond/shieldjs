@@ -9,18 +9,18 @@ import {
   HeroImage,
   HeroButton
 } from './Hero.styles'
+import { useTranslation } from 'react-i18next'
 
 export const Hero: React.FC = () => {
+  const { t } = useTranslation()
+
   return (
     <HeroSection>
       <HeroContent>
-        <HeroTitle>Shield.js</HeroTitle>
-        <HeroSubtitle>The new frontend project by One&nbsp;Beyond</HeroSubtitle>
-        <HeroDescription>
-          From developers, to developers. Make the beginning easier with all day
-          tools installed in one place.
-        </HeroDescription>
-        <HeroButton>Start Now</HeroButton>
+        <HeroTitle>{t('HeroTitle')}</HeroTitle>
+        <HeroSubtitle>{t('HeroSubtitle', { interpolation: { escapeValue: true } })}</HeroSubtitle>
+        <HeroDescription>{t('HeroDescription')}</HeroDescription>
+        <HeroButton>{t('HeroButton')}</HeroButton>
       </HeroContent>
       <HeroImage src={shieldjsLogo} alt="ShieldJS logo" />
     </HeroSection>
