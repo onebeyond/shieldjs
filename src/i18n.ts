@@ -46,7 +46,9 @@ const resources = {
       HeroTitle: heroTitle,
       HeroSubtitle: heroSubtitleEN,
       HeroDescription: heroDescriptionEN,
-      HeroButton: heroButtonEN
+      HeroButton: heroButtonEN,
+      TechnologiesTitle: 'Which technologies do we use?',
+      TechnologiesSubtitle: 'We provide the latest technology stack to make the best product'
     }
   },
   es: {
@@ -71,7 +73,9 @@ const resources = {
       HeroTitle: heroTitle,
       HeroSubtitle: heroSubtitleES,
       HeroDescription: heroDescriptionES,
-      HeroButton: heroButtonES
+      HeroButton: heroButtonES,
+      TechnologiesTitle: '¿Qué tecnologías usamos?',
+      TechnologiesSubtitle: 'Ofrecemos la última tecnología para hacer el mejor producto'
     }
   }
 }
