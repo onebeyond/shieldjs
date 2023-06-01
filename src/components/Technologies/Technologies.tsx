@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { TechnologiesSection, TechnologiesImage, TechnologiesTitle, TechnologiesSubtitle, TechnologiesTextsContainer, TechnologiesImagesContainer } from './Technologies.styles'
+import { TechnologiesSection, TechnologiesImage, TechnologiesTitle, TechnologiesSubtitle, TechnologiesTextsContainer, TechnologiesImagesContainer, TechnologiesLink } from './Technologies.styles'
 import { technologiesImages } from '@/constants/technologies-images'
 
 export const Technologies: React.FC = () => {
@@ -13,7 +13,10 @@ export const Technologies: React.FC = () => {
         <TechnologiesSubtitle>{t('TechnologiesSubtitle')}</TechnologiesSubtitle>
       </TechnologiesTextsContainer>
       <TechnologiesImagesContainer>
-        {technologiesImages.map(({ src, alt, key }) => <TechnologiesImage key={key} src={src} alt={alt}/>)}
+        {technologiesImages.map(({ src, alt, key, href }) =>
+          <TechnologiesLink key={key} href={href} target='_blank'>
+            <TechnologiesImage src={src} alt={alt}/>
+          </TechnologiesLink>)}
       </TechnologiesImagesContainer>
     </TechnologiesSection>
   )
