@@ -77,7 +77,7 @@ export const StyledNavButton = styled('button', {
   borderRadius: '40px',
   border: '1px solid rgb(97, 218, 251)',
   padding: '0.5rem 1rem',
-  background: 'linear-gradient(180deg, rgb(97, 218, 251) 3.35%, rgba(97, 218, 251, 0.22) 100.65%)',
+  background: '$gradientButton',
   '@sm': {
     display: 'flex'
   }
