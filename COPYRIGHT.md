@@ -160,7 +160,7 @@ This application makes use of the following open source packages:
 | @devtools-ds/themes | 1.2.1 | MIT | https://github.com/intuit/devtools-ds |
 | @devtools-ds/tree | 1.2.1 | MIT | https://github.com/intuit/devtools-ds |
 | @discoveryjs/json-ext | 0.5.7 | MIT | https://github.com/discoveryjs/json-ext |
-| @esbuild/darwin-x64 | 0.17.19 | MIT | https://github.com/evanw/esbuild |
+| @esbuild/darwin-arm64 | 0.17.19 | MIT | https://github.com/evanw/esbuild |
 | @eslint-community/eslint-utils | 4.4.0 | MIT | https://github.com/eslint-community/eslint-utils |
 | @eslint-community/regexpp | 4.5.0 | MIT | https://github.com/eslint-community/regexpp |
 | @eslint/eslintrc | 1.4.1 | MIT | https://github.com/eslint/eslintrc |
