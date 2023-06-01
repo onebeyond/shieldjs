@@ -19,7 +19,7 @@ const languages = [
 function FetchExample () {
   const [count, setCount] = useState(0)
   const [character, setCharacter] = useState<Character | null>(null)
-  const { t, i18n } = useTranslation()
+  const { t, i18n } = useTranslation('fetchExample')
 
   const handleOnLang = (code: string) => i18n.changeLanguage(code).then()
 
@@ -49,23 +49,24 @@ function FetchExample () {
           <img src={shieldjsLogo} className="logo shieldjs" alt="ShieldJS logo" />
         </Link>
       </div>
-      <h1>{t('Title')}</h1>
+      <h1>{t('title')}</h1>
       <div className="card">
         <Button primary onClick={() => setCount((count) => count + 1)}>
-          {t('TotalCount', { count })}
+          {t('totalCount', { count })}
         </Button>
         <Card image={character?.image || ''} onClick={() => console.log('click')}>
           <h2>{character?.name}</h2>
         </Card>
         <Trans
-          i18nKey="EditCode"
+          t={t}
+          i18nKey="editCode"
           parent="p"
           values={{ filename: 'src/pages/FetchExample/FetchExample.tsx' }}
           components={{ code: <code /> }}
         />
       </div>
-      <p className="read-the-docs">{t('LearnMore')}</p>
-      <Link to="/anyway">{t('GoWaste')}</Link><br/>
+      <p className="read-the-docs">{t('learnMore')}</p>
+      <Link to="/anyway">{t('goWaste')}</Link><br/>
     </MainLayout>
   )
 }
