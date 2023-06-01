@@ -19,8 +19,10 @@ export const {
       purple500: 'hsl(252,78%,60%)',
       green500: 'hsl(148,60%,60%)',
       red500: 'hsl(352,100%,62%)',
-      gradientBlueToGray: 'linear-gradient(0deg, rgba(30, 30, 30, 0.5) 0%, rgba(50, 86, 96, 0.8) 33.85%, #428293 62.5%, rgba(97, 218, 251, 0.75) 100%)',
-      gradientButton: 'linear-gradient(180deg, rgb(97, 218, 251) 3.35%, rgba(97, 218, 251, 0.22) 100.65%)'
+      gradientBlueToGray:
+        'linear-gradient(0deg, rgba(30, 30, 30, 0.5) 0%, rgba(50, 86, 96, 0.8) 33.85%, #428293 62.5%, rgba(97, 218, 251, 0.75) 100%)',
+      gradientButton:
+        'linear-gradient(180deg, rgb(97, 218, 251) 3.35%, rgba(97, 218, 251, 0.22) 100.65%)'
     },
     space: {
       1: '5px',
@@ -28,15 +30,15 @@ export const {
       3: '15px'
     },
     fontSizes: {
-      1: '12px',
-      2: '14x',
-      3: '16px',
-      4: '18px',
-      5: '20px',
-      6: '24px',
-      7: '32px',
-      8: '48px',
-      9: '72px'
+      1: '0.75rem',
+      2: '0.875rem',
+      3: '1rem',
+      4: '1.125rem',
+      5: '1.25rem',
+      6: '1.5rem',
+      7: '2rem',
+      8: '3rem',
+      9: '4.5rem'
     },
     fonts: {
       untitled: 'Untitled Sans, apple-system, sans-serif',
