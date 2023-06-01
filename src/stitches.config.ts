@@ -21,6 +21,8 @@ export const {
       red500: 'hsl(352,100%,62%)',
       gradientBlueToGray:
         'linear-gradient(0deg, rgba(30, 30, 30, 0.5) 0%, rgba(50, 86, 96, 0.8) 33.85%, #428293 62.5%, rgba(97, 218, 251, 0.75) 100%)',
+      gradientGrayToBlue:
+      'linear-gradient(0deg, rgba(97,218,251,0.75) 0%, rgba(66,130,147,1) 35%, rgba(50,86,96,0.5) 78%, rgba(30,30,30,0.5) 100%)',
       gradientButton:
         'linear-gradient(180deg, rgb(97, 218, 251) 3.35%, rgba(97, 218, 251, 0.22) 100.65%)'
     },

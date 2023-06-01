@@ -5,7 +5,7 @@ export const TechnologiesSection = styled('section', {
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
-  background: '$gradientBlueToGray',
+  background: '$gradientGrayToBlue',
   px: '2rem',
   py: '3rem',
   '@md': {
