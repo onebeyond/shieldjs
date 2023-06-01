@@ -43,7 +43,6 @@ That is why, for frontline developers, we have created Shield.js
   - <a href="https://www.typescriptlang.org/"><img src="./src/assets/typescript.svg" alt="typescript" width="10"> TypeScript</a>
   - <a href="https://vitejs.dev/"><img src="./src/assets/vite.svg" alt="vite" width="10"> Vite</a>
   - <a href="https://playwright.dev/"><img src="./src/assets/playwright.svg" alt="playwright" width="10"> Playwright</a>
-  - <a href="https://storybook.js.org/"><img src="./src/assets/storybook.svg" alt="storybook" width="10"> Storybook</a>
   - <a href="https://www.hygen.io/"><img src="./src/assets/hygen.svg" alt="hygen" width="10"> Hygen</a>
   - <a href="https://stitches.dev/"><img src="./src/assets/stitches.svg" alt="stitches" width="10"> Stitches</a>
 

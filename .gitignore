@@ -25,7 +25,7 @@ dist-ssr
 *.sw?
 
 #build
-storybook-static
+
 
 # Testing
 /test-results/
