@@ -3,17 +3,17 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
 export const About = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation('about')
 
   return (
     <MainLayout>
-      <h1>{t('AboutTitle')}</h1>
-      <h2>{t('AboutSubtitle')}</h2>
-      <p>{t('AboutTextOne')}</p>
-      <p>{t('AboutTextTwo')}</p>
-      <p>{t('AboutTextThree')}</p>
-      <h3>{t('AboutConclusion')}</h3>
-      <Link to="/">{t('AboutSendBack')}</Link>
+      <h1>{t('title')}</h1>
+      <h2>{t('subtitle')}</h2>
+      <p>{t('description.p1')}</p>
+      <p>{t('description.p2')}</p>
+      <p>{t('description.p3')}</p>
+      <h3>{t('conclusion')}</h3>
+      <Link to="/">{t('sendBack')}</Link>
     </MainLayout>
   )
 }
