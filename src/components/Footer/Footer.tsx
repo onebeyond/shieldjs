@@ -27,7 +27,7 @@ const Footer = () => {
             </a>
           </MenuListItem>
           <MenuListItem>
-            <a href="https://github.com/onebeyond/shieldjs" target="_blank" rel="noreferrer">
+            <a href="https://github.com/onebeyond/shieldjs" data-testid='slackLink' target="_blank" rel="noreferrer">
               <LinkIcon src={githubLogo} alt='github'/>
             </a>
           </MenuListItem>
