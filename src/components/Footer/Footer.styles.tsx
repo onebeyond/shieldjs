@@ -4,8 +4,12 @@ export const FooterWrapper = styled('footer', {
   backgroundColor: 'transparent',
   borderTop: '1px solid #ddd',
   color: '#fff',
-  margin: ' 0 3.12rem',
-  padding: '1.5rem 0',
+  margin: '0 2rem',
+  padding: '0.5rem 0',
+  '@md': {
+    margin: ' 0 3.12rem',
+    padding: '1.5rem 0'
+  },
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   justifyContent: 'space-between'
@@ -16,7 +20,10 @@ export const LeftColumn = styled('div', {
   flexDirection: 'column',
   width: '100%',
   alignItems: 'flex-start',
-  gap: '1.5rem'
+  gap: '1rem',
+  '@md': {
+    gap: '1.5rem'
+  }
 })
 
 export const RightColumn = styled('div', {
@@ -25,7 +32,10 @@ export const RightColumn = styled('div', {
   width: '100%',
   alignItems: 'flex-end',
   justifyContent: 'start',
-  gap: '1.5rem'
+  gap: '1rem',
+  '@md': {
+    gap: '1.5rem'
+  }
 })
 
 export const MenuList = styled('ul', {
@@ -34,7 +44,10 @@ export const MenuList = styled('ul', {
   display: 'flex',
   justifyContent: 'space-around',
   alignItems: 'center',
-  gap: '70px'
+  gap: '0.8rem',
+  '@md': {
+    gap: '3.8rem'
+  }
 })
 
 export const MenuListItem = styled('li', {
@@ -48,15 +61,23 @@ export const Subtitle = styled('h3', {
   color: '#fff',
   padding: '0', // Add to reset.css
   margin: '0', // Add to reset.css
-  fontSize: '1.5rem',
-  fontFamily: 'InriaBold'
+  fontSize: '$4',
+  '@md': {
+    fontSize: '$6'
+  },
+  textAlign: 'left'
 })
 
 export const Title = styled('h2', {
   color: '#fff',
-  fontSize: '2.25rem',
+  fontSize: '$5',
+  '@md': {
+    fontSize: '$7'
+  },
   margin: '0',
-  padding: '0'
+  padding: '0',
+  textAlign: 'left'
+
 })
 
 export const OneBeyondIcon = styled('img', {
