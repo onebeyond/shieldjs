@@ -1,9 +1,10 @@
+import { Hero } from '@/components/Hero'
 import { MainLayout } from '@/layout/MainLayout/MainLayout'
 
 export const Home = () => {
   return (
           <MainLayout>
-            <h1>Home</h1>
+            <Hero />
           </MainLayout>
   )
 }

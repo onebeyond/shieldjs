@@ -1,13 +1,28 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import {
-  conclusionEN, conclusionES,
-  subtitleEN, subtitleES,
-  textOneEN, textOneES,
-  textThreeEN, textThreeES,
-  textTwoEN, textTwoES,
-  titleEN, titleES
+  conclusionEN,
+  conclusionES,
+  subtitleEN,
+  subtitleES,
+  textOneEN,
+  textOneES,
+  textThreeEN,
+  textThreeES,
+  textTwoEN,
+  textTwoES,
+  titleEN,
+  titleES
 } from './constants/about-texts'
+import {
+  heroTitle,
+  heroButtonEN,
+  heroButtonES,
+  heroDescriptionEN,
+  heroDescriptionES,
+  heroSubtitleEN,
+  heroSubtitleES
+} from './constants/hero-texts'
 
 const resources = {
   en: {
@@ -28,10 +43,14 @@ const resources = {
       AboutTextTwo: textTwoEN,
       AboutTextThree: textThreeEN,
       AboutConclusion: conclusionEN,
+      HeroTitle: heroTitle,
+      HeroSubtitle: heroSubtitleEN,
+      HeroDescription: heroDescriptionEN,
+      HeroButton: heroButtonEN,
       Footer: {
         ShieldTitle: 'Shield.js',
-        OneBeyondSubtitle: 'Since 2023 - One Beyond',
-        ContactUsTitle: 'Contact us'
+        OneBeyondSubtitle: 'Desde 2023 - One Beyond',
+        ContactUsTitle: 'Contacta con nosotros'
       }
     }
   },
@@ -41,7 +60,8 @@ const resources = {
       LearnMore: 'Pulsa en los iconos de Vite and React para saber más',
       TotalCount_one: 'Has pinchado {{count}} vez',
       TotalCount_other: 'Has pinchado {{count}} veces',
-      EditCode: 'Edita y guarda el archivo <code>{{filename}}</code> para testear HMR',
+      EditCode:
+        'Edita y guarda el archivo <code>{{filename}}</code> para testear HMR',
       GoWaste: '🗑 Llévame al fracaso',
       NoMatchTitle: '🥲 Upsss...',
       NoMatchSubtitle: 'Esta página no existe',
@@ -52,7 +72,16 @@ const resources = {
       AboutTextOne: textOneES,
       AboutTextTwo: textTwoES,
       AboutTextThree: textThreeES,
-      AboutConclusion: conclusionES
+      AboutConclusion: conclusionES,
+      HeroTitle: heroTitle,
+      HeroSubtitle: heroSubtitleES,
+      HeroDescription: heroDescriptionES,
+      HeroButton: heroButtonES,
+      Footer: {
+        ShieldTitle: 'Shield.js',
+        OneBeyondSubtitle: 'Since 2023 - One Beyond',
+        ContactUsTitle: 'Contact us'
+      }
     }
   }
 }
