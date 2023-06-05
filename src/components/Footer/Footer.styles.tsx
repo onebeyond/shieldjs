@@ -4,38 +4,33 @@ export const FooterWrapper = styled('footer', {
   backgroundColor: 'transparent',
   borderTop: '1px solid #ddd',
   color: '#fff',
-  margin: '0 2rem',
-  padding: '0.5rem 0',
+  margin: '0 $6',
+  padding: '$2 0',
   '@md': {
-    margin: ' 0 3.12rem',
-    padding: '1.5rem 0'
+    margin: ' 0 $7',
+    padding: '$5 0'
   },
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   justifyContent: 'space-between'
 })
 
-export const LeftColumn = styled('div', {
+export const Column = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   width: '100%',
-  alignItems: 'flex-start',
-  gap: '1rem',
+  gap: '$4',
   '@md': {
-    gap: '1.5rem'
+    gap: '$5'
   }
 })
 
-export const RightColumn = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  width: '100%',
-  alignItems: 'flex-end',
-  justifyContent: 'start',
-  gap: '1rem',
-  '@md': {
-    gap: '1.5rem'
-  }
+export const LeftColumn = styled(Column, {
+  alignItems: 'flex-start'
+})
+
+export const RightColumn = styled(Column, {
+  alignItems: 'flex-end'
 })
 
 export const MenuList = styled('ul', {
@@ -44,7 +39,7 @@ export const MenuList = styled('ul', {
   display: 'flex',
   justifyContent: 'space-around',
   alignItems: 'center',
-  gap: '0.8rem',
+  gap: '$5',
   '@md': {
     gap: '3.8rem'
   }
@@ -54,7 +49,7 @@ export const MenuListItem = styled('li', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: '1.5rem'
+  marginBottom: '$4'
 })
 
 export const Subtitle = styled('h3', {
@@ -81,9 +76,15 @@ export const Title = styled('h2', {
 })
 
 export const OneBeyondIcon = styled('img', {
-  height: '4.6rem'
+  height: '$8',
+  '@md': {
+    height: '$9'
+  }
 })
 
 export const LinkIcon = styled('img', {
-  height: '2.7rem'
+  height: '2rem',
+  '@md': {
+    height: '2.7rem'
+  }
 })
