@@ -13,7 +13,7 @@ import {
   textTwoES,
   titleEN,
   titleES
-} from './constants/about-texts'
+} from '@/constants/about-texts'
 import {
   heroTitle,
   heroButtonEN,
@@ -22,7 +22,14 @@ import {
   heroDescriptionES,
   heroSubtitleEN,
   heroSubtitleES
-} from './constants/hero-texts'
+} from '@/constants/hero-texts'
+import {
+  contactUsTitleEN, contactUsTitleES,
+  footerTitleEN,
+  footerTitleES,
+  oneBeyondSubtitleEN,
+  oneBeyondSubtitleES
+} from '@/constants/footer-texts'
 
 const resources = {
   en: {
@@ -48,9 +55,9 @@ const resources = {
       HeroDescription: heroDescriptionEN,
       HeroButton: heroButtonEN,
       Footer: {
-        ShieldTitle: 'Shield.js',
-        OneBeyondSubtitle: 'Desde 2023 - One Beyond',
-        ContactUsTitle: 'Contacta con nosotros'
+        FooterTitle: footerTitleEN,
+        OneBeyondSubtitle: oneBeyondSubtitleEN,
+        ContactUsTitle: contactUsTitleEN
       }
     }
   },
@@ -78,9 +85,9 @@ const resources = {
       HeroDescription: heroDescriptionES,
       HeroButton: heroButtonES,
       Footer: {
-        ShieldTitle: 'Shield.js',
-        OneBeyondSubtitle: 'Since 2023 - One Beyond',
-        ContactUsTitle: 'Contact us'
+        FooterTitle: footerTitleES,
+        OneBeyondSubtitle: oneBeyondSubtitleES,
+        ContactUsTitle: contactUsTitleES
       }
     }
   }

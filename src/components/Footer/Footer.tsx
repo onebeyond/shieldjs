@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LeftColumn>
-        <Title> {t('Footer.ShieldTitle')}</Title>
+        <Title> {t('Footer.FooterTitle')}</Title>
         <Subtitle>{t('Footer.OneBeyondSubtitle')}</Subtitle>
         <OneBeyondIcon src={oneBeyondLogo} alt='one-beyond'/>
       </LeftColumn>
