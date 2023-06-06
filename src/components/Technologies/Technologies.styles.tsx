@@ -49,5 +49,3 @@ export const TechnologiesImagesContainer = styled('div', {
 export const TechnologiesImage = styled('img', {
   width: '5rem'
 })
-
-export const TechnologiesLink = styled('a', {})
