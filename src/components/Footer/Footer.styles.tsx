@@ -12,7 +12,8 @@ export const FooterWrapper = styled('footer', {
   },
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+  mt: 'auto'
 })
 
 export const Column = styled('div', {
