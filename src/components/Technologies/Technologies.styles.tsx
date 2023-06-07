@@ -6,8 +6,8 @@ export const TechnologiesSection = styled('section', {
   alignItems: 'center',
   flexDirection: 'column',
   background: '$gray900',
-  px: '2rem',
-  py: '3rem',
+  px: '$6',
+  py: '$7',
   '@md': {
     px: '6rem',
     py: '4.5rem'
@@ -31,21 +31,35 @@ export const TechnologiesTitle = styled('h1', {
 export const TechnologiesSubtitle = styled('h2', {
   fontSize: '$4',
   fontWeight: 'normal',
-  my: '1rem',
+  my: '$4',
   '@md': {
     fontSize: '$5'
   }
 })
 
-export const TechnologiesImagesContainer = styled('div', {
+export const TechnologiesList = styled('ul', {
+  p: 0,
+  mt: 0,
   display: 'flex',
-  flexDirection: 'row',
+  flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  gap: '2rem',
-  my: '1rem'
+  gap: '$2',
+  my: '$4',
+  '@md': {
+    my: '$4',
+    flexDirection: 'row',
+    gap: '$6'
+  }
 })
 
 export const TechnologiesImage = styled('img', {
-  width: '5rem'
+  width: '3rem',
+  '@md': {
+    width: '5rem'
+  }
+})
+
+export const TechnologiesListItem = styled('li', {
+  listStyle: 'none'
 })
