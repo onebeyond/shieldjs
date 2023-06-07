@@ -4,11 +4,11 @@ export const FooterWrapper = styled('footer', {
   backgroundColor: 'transparent',
   borderTop: '1px solid #ddd',
   color: '#fff',
-  margin: '0 $6',
-  padding: '$2 0',
+  mx: '$6',
+  py: '$2',
   '@md': {
-    margin: ' 0 $7',
-    padding: '$5 0'
+    mx: '$7',
+    py: '$5'
   },
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
@@ -34,8 +34,8 @@ export const RightColumn = styled(Column, {
 })
 
 export const MenuList = styled('ul', {
-  padding: '0', // Add to reset.css
-  margin: '0', // Add to reset.css
+  p: '0', // Add to reset.css
+  m: '0', // Add to reset.css
   display: 'flex',
   justifyContent: 'space-around',
   alignItems: 'center',
@@ -49,13 +49,13 @@ export const MenuListItem = styled('li', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: '$4'
+  mb: '$4'
 })
 
 export const Subtitle = styled('h3', {
   color: '#fff',
-  padding: '0', // Add to reset.css
-  margin: '0', // Add to reset.css
+  p: '0', // Add to reset.css
+  m: '0', // Add to reset.css
   fontSize: '$4',
   '@md': {
     fontSize: '$6'
@@ -69,8 +69,8 @@ export const Title = styled('h2', {
   '@md': {
     fontSize: '$7'
   },
-  margin: '0',
-  padding: '0',
+  m: '0',
+  p: '0',
   textAlign: 'left'
 
 })
