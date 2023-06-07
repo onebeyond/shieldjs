@@ -58,7 +58,9 @@ const resources = {
         FooterTitle: footerTitleEN,
         OneBeyondSubtitle: oneBeyondSubtitleEN,
         ContactUsTitle: contactUsTitleEN
-      }
+      },
+      TechnologiesTitle: 'Which technologies do we use?',
+      TechnologiesSubtitle: 'We provide the latest technology stack to make the best product'
     }
   },
   es: {
@@ -88,7 +90,9 @@ const resources = {
         FooterTitle: footerTitleES,
         OneBeyondSubtitle: oneBeyondSubtitleES,
         ContactUsTitle: contactUsTitleES
-      }
+      },
+      TechnologiesTitle: '¿Qué tecnologías usamos?',
+      TechnologiesSubtitle: 'Ofrecemos la última tecnología para hacer el mejor producto'
     }
   }
 }

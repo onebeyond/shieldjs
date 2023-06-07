@@ -14,6 +14,7 @@ export const {
   theme: {
     colors: {
       white: '#fff',
+      gray900: 'hsl(240,1%,13%)',
       gray500: 'hsl(206,10%,76%)',
       blue500: 'hsl(206,100%,50%)',
       purple500: 'hsl(252,78%,60%)',
