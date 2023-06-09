@@ -160,12 +160,12 @@ This application makes use of the following open source packages:
 | @devtools-ds/themes | 1.2.1 | MIT | https://github.com/intuit/devtools-ds |
 | @devtools-ds/tree | 1.2.1 | MIT | https://github.com/intuit/devtools-ds |
 | @discoveryjs/json-ext | 0.5.7 | MIT | https://github.com/discoveryjs/json-ext |
-| @esbuild/darwin-arm64 | 0.16.17 | MIT | https://github.com/evanw/esbuild |
+| @esbuild/darwin-arm64 | 0.17.19 | MIT | https://github.com/evanw/esbuild |
 | @eslint-community/eslint-utils | 4.4.0 | MIT | https://github.com/eslint-community/eslint-utils |
 | @eslint-community/regexpp | 4.5.0 | MIT | https://github.com/eslint-community/regexpp |
 | @eslint/eslintrc | 1.4.1 | MIT | https://github.com/eslint/eslintrc |
-| @eslint/eslintrc | 2.0.0 | MIT | https://github.com/eslint/eslintrc |
-| @eslint/js | 8.35.0 | MIT | https://github.com/eslint/eslint |
+| @eslint/eslintrc | 2.0.3 | MIT | https://github.com/eslint/eslintrc |
+| @eslint/js | 8.40.0 | MIT | https://github.com/eslint/eslint |
 | @gar/promisify | 1.1.3 | MIT | https://github.com/wraithgar/gar-promisify |
 | @guidesmiths/license-checker | 2.0.1 | ISC | https://github.com/guidesmiths/license-checker |
 | @humanwhocodes/config-array | 0.11.8 | Apache-2.0 | https://github.com/humanwhocodes/config-array |
@@ -431,7 +431,7 @@ This application makes use of the following open source packages:
 | atob | 2.1.2 | (MIT OR Apache-2.0) | git://git.coolaj86.com/coolaj86/atob.js |
 | autoprefixer | 9.8.8 | MIT | https://github.com/postcss/autoprefixer |
 | available-typed-arrays | 1.0.5 | MIT | https://github.com/inspect-js/available-typed-arrays |
-| axios | 1.3.5 | MIT | https://github.com/axios/axios |
+| axios | 1.4.0 | MIT | https://github.com/axios/axios |
 | babel-loader | 8.3.0 | MIT | https://github.com/babel/babel-loader |
 | babel-plugin-add-react-displayname | 0.0.5 | MIT | https://github.com/opbeat/babel-plugin-add-react-displayname |
 | babel-plugin-apply-mdx-type-prop | 1.6.22 | MIT | https://github.com/mdx-js/mdx |
@@ -683,7 +683,7 @@ This application makes use of the following open source packages:
 | es-to-primitive | 1.2.1 | MIT | https://github.com/ljharb/es-to-primitive |
 | es5-shim | 4.6.7 | MIT | https://github.com/es-shims/es5-shim |
 | es6-shim | 0.35.7 | MIT | https://github.com/paulmillr/es6-shim |
-| esbuild | 0.16.17 | MIT | https://github.com/evanw/esbuild |
+| esbuild | 0.17.19 | MIT | https://github.com/evanw/esbuild |
 | escalade | 3.1.1 | MIT | https://github.com/lukeed/escalade |
 | escape-html | 1.0.3 | MIT | https://github.com/component/escape-html |
 | escape-string-regexp | 1.0.5 | MIT | https://github.com/sindresorhus/escape-string-regexp |
@@ -700,16 +700,16 @@ This application makes use of the following open source packages:
 | eslint-plugin-react | 7.32.2 | MIT | https://github.com/jsx-eslint/eslint-plugin-react |
 | eslint-scope | 4.0.3 | BSD-2-Clause | https://github.com/eslint/eslint-scope |
 | eslint-scope | 5.1.1 | BSD-2-Clause | https://github.com/eslint/eslint-scope |
-| eslint-scope | 7.1.1 | BSD-2-Clause | https://github.com/eslint/eslint-scope |
+| eslint-scope | 7.2.0 | BSD-2-Clause | https://github.com/eslint/eslint-scope |
 | eslint-utils | 2.1.0 | MIT | https://github.com/mysticatea/eslint-utils |
 | eslint-utils | 3.0.0 | MIT | https://github.com/mysticatea/eslint-utils |
 | eslint-visitor-keys | 1.3.0 | Apache-2.0 | https://github.com/eslint/eslint-visitor-keys |
 | eslint-visitor-keys | 2.1.0 | Apache-2.0 | https://github.com/eslint/eslint-visitor-keys |
-| eslint-visitor-keys | 3.3.0 | Apache-2.0 | https://github.com/eslint/eslint-visitor-keys |
-| eslint | 8.35.0 | MIT | https://github.com/eslint/eslint |
+| eslint-visitor-keys | 3.4.1 | Apache-2.0 | https://github.com/eslint/eslint-visitor-keys |
 | eslint | 8.4.1 | MIT | https://github.com/eslint/eslint |
+| eslint | 8.40.0 | MIT | https://github.com/eslint/eslint |
 | espree | 9.2.0 | BSD-2-Clause | https://github.com/eslint/espree |
-| espree | 9.4.1 | BSD-2-Clause | https://github.com/eslint/espree |
+| espree | 9.5.2 | BSD-2-Clause | https://github.com/eslint/espree |
 | esprima | 4.0.1 | BSD-2-Clause | https://github.com/jquery/esprima |
 | esquery | 1.5.0 | BSD-3-Clause | https://github.com/estools/esquery |
 | esrecurse | 4.3.0 | BSD-2-Clause | https://github.com/estools/esrecurse |
@@ -1125,6 +1125,7 @@ This application makes use of the following open source packages:
 | mute-stream | 0.0.8 | ISC | https://github.com/isaacs/mute-stream |
 | nan | 2.17.0 | MIT | https://github.com/nodejs/nan |
 | nanoid | 3.3.4 | MIT | https://github.com/ai/nanoid |
+| nanoid | 3.3.6 | MIT | https://github.com/ai/nanoid |
 | nanomatch | 1.2.13 | MIT | https://github.com/micromatch/nanomatch |
 | natural-compare-lite | 1.4.0 | MIT | https://github.com/litejs/natural-compare-lite |
 | natural-compare | 1.4.0 | MIT | https://github.com/litejs/natural-compare-lite |
@@ -1255,7 +1256,7 @@ This application makes use of the following open source packages:
 | postcss-selector-parser | 6.0.11 | MIT | https://github.com/postcss/postcss-selector-parser |
 | postcss-value-parser | 4.2.0 | MIT | https://github.com/TrySound/postcss-value-parser |
 | postcss | 7.0.39 | MIT | https://github.com/postcss/postcss |
-| postcss | 8.4.21 | MIT | https://github.com/postcss/postcss |
+| postcss | 8.4.23 | MIT | https://github.com/postcss/postcss |
 | prelude-ls | 1.1.2 | MIT | https://github.com/gkz/prelude-ls |
 | prelude-ls | 1.2.1 | MIT | https://github.com/gkz/prelude-ls |
 | prettier | 2.3.0 | MIT | https://github.com/prettier/prettier |
@@ -1301,7 +1302,7 @@ This application makes use of the following open source packages:
 | react-docgen | 6.0.0-alpha.3 | MIT | https://github.com/reactjs/react-docgen |
 | react-dom | 18.2.0 | MIT | https://github.com/facebook/react |
 | react-element-to-jsx-string | 14.3.4 | MIT | https://github.com/algolia/react-element-to-jsx-string |
-| react-i18next | 12.2.0 | MIT | https://github.com/i18next/react-i18next |
+| react-i18next | 12.2.2 | MIT | https://github.com/i18next/react-i18next |
 | react-inspector | 5.1.1 | MIT | https://github.com/xyc/react-inspector |
 | react-is | 16.13.1 | MIT | https://github.com/facebook/react |
 | react-is | 17.0.2 | MIT | https://github.com/facebook/react |
@@ -1362,7 +1363,7 @@ This application makes use of the following open source packages:
 | rimraf | 2.7.1 | ISC | https://github.com/isaacs/rimraf |
 | rimraf | 3.0.2 | ISC | https://github.com/isaacs/rimraf |
 | ripemd160 | 2.0.2 | MIT | https://github.com/crypto-browserify/ripemd160 |
-| rollup | 3.18.0 | MIT | https://github.com/rollup/rollup |
+| rollup | 3.21.7 | MIT | https://github.com/rollup/rollup |
 | rsvp | 4.8.5 | MIT | https://github.com/tildeio/rsvp.js |
 | run-async | 2.4.1 | MIT | https://github.com/SBoudrias/run-async |
 | run-parallel | 1.2.0 | MIT | https://github.com/feross/run-parallel |
@@ -1384,7 +1385,6 @@ This application makes use of the following open source packages:
 | semver | 5.7.1 | ISC | https://github.com/npm/node-semver |
 | semver | 6.3.0 | ISC | https://github.com/npm/node-semver |
 | semver | 7.3.8 | ISC | https://github.com/npm/node-semver |
-| semver | 7.5.0 | ISC | https://github.com/npm/node-semver |
 | send | 0.18.0 | MIT | https://github.com/pillarjs/send |
 | sentence-case | 2.1.1 | MIT | https://github.com/blakeembrey/sentence-case |
 | serialize-javascript | 4.0.0 | BSD-3-Clause | https://github.com/yahoo/serialize-javascript |
@@ -1489,7 +1489,7 @@ This application makes use of the following open source packages:
 | terser-webpack-plugin | 1.4.5 | MIT | https://github.com/webpack-contrib/terser-webpack-plugin |
 | terser-webpack-plugin | 4.2.3 | MIT | https://github.com/webpack-contrib/terser-webpack-plugin |
 | terser | 4.8.1 | BSD-2-Clause | https://github.com/terser/terser |
-| terser | 5.17.1 | BSD-2-Clause | https://github.com/terser/terser |
+| terser | 5.16.5 | BSD-2-Clause | https://github.com/terser/terser |
 | test-exclude | 6.0.0 | ISC | https://github.com/istanbuljs/test-exclude |
 | text-extensions | 1.9.0 | MIT | https://github.com/sindresorhus/text-extensions |
 | text-table | 0.2.0 | MIT | https://github.com/substack/text-table |
@@ -1597,7 +1597,7 @@ This application makes use of the following open source packages:
 | vfile-message | 2.0.4 | MIT | https://github.com/vfile/vfile-message |
 | vfile | 4.2.1 | MIT | https://github.com/vfile/vfile |
 | vite-node | 0.29.2 | MIT | https://github.com/vitest-dev/vitest |
-| vite | 4.1.4 | MIT | https://github.com/vitejs/vite |
+| vite | 4.3.6 | MIT | https://github.com/vitejs/vite |
 | vitest | 0.29.2 | MIT | https://github.com/vitest-dev/vitest |
 | vm-browserify | 1.1.2 | MIT | https://github.com/substack/vm-browserify |
 | void-elements | 3.1.0 | MIT | https://github.com/pugjs/void-elements |

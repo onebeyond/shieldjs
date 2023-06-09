@@ -26,9 +26,15 @@ export const {
         'linear-gradient(180deg, rgb(97, 218, 251) 3.35%, rgba(97, 218, 251, 0.22) 100.65%)'
     },
     space: {
-      1: '5px',
-      2: '10px',
-      3: '15px'
+      1: '0.3rem',
+      2: '0.5rem',
+      3: '0.8rem',
+      4: '1rem',
+      5: '1.5rem',
+      6: '2rem',
+      7: '3rem',
+      8: '4rem',
+      9: '4.5rem'
     },
     fontSizes: {
       1: '0.75rem',
