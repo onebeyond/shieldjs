@@ -31,6 +31,10 @@ import {
   oneBeyondSubtitleES
 } from '@/constants/footer-texts'
 
+import {
+  tutorialTitleEN, tutorialTitleES, tutorialSubtitleEN, tutorialSubtitleES
+} from '@/constants/tutorial-texts'
+
 const resources = {
   en: {
     translation: {
@@ -54,6 +58,8 @@ const resources = {
       HeroSubtitle: heroSubtitleEN,
       HeroDescription: heroDescriptionEN,
       HeroButton: heroButtonEN,
+      TutorialTitle: tutorialTitleEN,
+      TutorialSubtitle: tutorialSubtitleEN,
       Footer: {
         FooterTitle: footerTitleEN,
         OneBeyondSubtitle: oneBeyondSubtitleEN,
@@ -86,6 +92,8 @@ const resources = {
       HeroSubtitle: heroSubtitleES,
       HeroDescription: heroDescriptionES,
       HeroButton: heroButtonES,
+      TutorialTitle: tutorialTitleES,
+      TutorialSubtitle: tutorialSubtitleES,
       Footer: {
         FooterTitle: footerTitleES,
         OneBeyondSubtitle: oneBeyondSubtitleES,
