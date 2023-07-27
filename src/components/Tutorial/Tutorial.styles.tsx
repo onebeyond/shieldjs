@@ -5,7 +5,7 @@ export const TutorialSection = styled('section', {
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
-  background: '$gray900',
+  background: '$gradientGrayToBlueToGray',
   px: '$6',
   py: '$7',
   '@md': {
@@ -35,4 +35,10 @@ export const TutorialSubtitle = styled('h2', {
   '@md': {
     fontSize: '$5'
   }
+})
+
+export const TutorialImage = styled('img', {
+  my: '$4',
+  maxWidth: '100%',
+  height: 'auto'
 })

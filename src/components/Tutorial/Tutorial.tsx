@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { TutorialSection, TutorialTextsContainer, TutorialTitle, TutorialSubtitle } from './Tutorial.styles'
+import { TutorialSection, TutorialTextsContainer, TutorialTitle, TutorialSubtitle, TutorialImage } from './Tutorial.styles'
+import { tutorialGraphImage } from '@/constants/tutorial-texts'
 
 export const Tutorial: React.FC = () => {
   const { t } = useTranslation()
@@ -11,6 +12,7 @@ export const Tutorial: React.FC = () => {
             <TutorialTitle>{t('TutorialTitle')}</TutorialTitle>
             <TutorialSubtitle>{t('TutorialSubtitle')}</TutorialSubtitle>
         </TutorialTextsContainer>
+        <TutorialImage src={tutorialGraphImage.src} alt={tutorialGraphImage.alt} />
     </TutorialSection>
   )
 }
