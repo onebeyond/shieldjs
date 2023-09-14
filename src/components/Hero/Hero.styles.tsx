@@ -24,7 +24,7 @@ export const HeroContent = styled.div`
 
 export const HeroTitle = styled.h1`
   font-size: ${props => props.theme.fontSizes.xl};
-  margin: 0 auto
+  margin: 0;
   ${props => props.theme.mediaQueries.md} {
     font-size: ${props => props.theme.fontSizes.xxl};
   }
@@ -40,7 +40,7 @@ export const HeroSubtitle = styled.h2`
 `
 
 export const HeroDescription = styled.p`
-  font-size: ${props => props.theme.fontSizes.xl};
+  font-size: ${props => props.theme.fontSizes.md};
   ${props => props.theme.mediaQueries.md} {
     font-size: ${props => props.theme.fontSizes.lg};
   }

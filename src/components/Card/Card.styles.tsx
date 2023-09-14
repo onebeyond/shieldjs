@@ -6,7 +6,7 @@ export const CardWrapper = styled.div`
   margin: 48px auto 0;
   width: 300px;
   background-color: #fff;
-  box-shadow: '0 0 20px rgba(0; 0; 0; .05)';
+  box-shadow: 0 0 20px rgba(0, 0, 0, .05);
   border-radius: 5px
 `
 
@@ -42,11 +42,11 @@ export const CardButton = styled.button`
   background-color: #e5195f;
   border: 0;
   border-radius: 35px;
-  box-shadow: '0 10px 10px rgba(0; 0; 0; .08)';
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .08);
   cursor: pointer;
-  transition: 'all .25s cubic-bezier(.02; .01; .47; 1)';
+  transition: all .25s cubic-bezier(.02, .01, .47, 1);
   &:hover {
-    box-shadow: '0 15px 15px rgba(0; 0; 0; .16)';
-    transform: 'translate(0; -5px)'
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
+    transform: translate(0, -5px)
   }
 `
