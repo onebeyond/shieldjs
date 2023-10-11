@@ -1,14 +1,14 @@
-import { styled } from '@/stitches.config'
+import styled from 'styled-components'
 
-export const MainWrapper = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  minHeight: '100vh',
-  width: '100%'
-})
+export const MainWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+`
 
-export const Main = styled('main', {
-  display: 'flex',
-  flexGrow: '1',
-  flexDirection: 'column'
-})
+export const Main = styled.main`
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+`

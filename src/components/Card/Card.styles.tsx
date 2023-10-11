@@ -1,4 +1,4 @@
-import { styled } from 'styled-components'
+import styled from 'styled-components'
 
 export const CardWrapper = styled.div`
   overflow: hidden;
@@ -7,28 +7,28 @@ export const CardWrapper = styled.div`
   width: 300px;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, .05);
-  border-radius: 5px
+  border-radius: 5px;
 `
 
 export const CardHeader = styled.header`
   display: flex;
-  justify-content: center
+  justify-content: center;
 `
 
 export const CardImg = styled.img`
   width: 90%;
-  border-radius: 5px
+  border-radius: 5px;
 `
 
 export const CardBody = styled.div`
-  padding: 0 20px
+  padding: 0 20px;
 `
 
 export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #000
+  color: #000;
 `
 
 export const CardButton = styled.button`
@@ -47,6 +47,6 @@ export const CardButton = styled.button`
   transition: all .25s cubic-bezier(.02, .01, .47, 1);
   &:hover {
     box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
-    transform: translate(0, -5px)
+    transform: translate(0, -5px);
   }
 `

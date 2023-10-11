@@ -1,4 +1,4 @@
-import { styled } from 'styled-components'
+import styled from 'styled-components'
 
 export const HeroSection = styled.section`
   display: flex;
@@ -18,7 +18,7 @@ export const HeroContent = styled.div`
   flex-basis: 100%;
   text-align: left;
   ${props => props.theme.mediaQueries.md} {
-    flex-basis: 40%
+    flex-basis: 40%;
   }
 `
 
@@ -51,7 +51,7 @@ export const HeroImage = styled.img`
   height: 180px;
   flex-basis: 30%;
   ${props => props.theme.mediaQueries.md} {
-    display: block
+    display: block;
   }
 `
 
