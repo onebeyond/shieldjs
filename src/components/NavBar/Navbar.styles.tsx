@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { StyledButton } from '../Button/Button.styles'
 
 export const StyledNavMenu = styled.ul`
   display: flex;
@@ -64,14 +65,18 @@ export const StyledImage = styled.img`
   }
 `
 
-export const StyledNavButton = styled.button`
+export const StyledNavButton = styled(StyledButton)`
   display: none;
   color: black;
   border-radius: 40px;
   border: 1px solid rgb(97, 218, 251);
   padding: 0.5rem 1rem;
-  background: $gradientButton;
+  min-width: auto;
+  background: ${props => props.theme.colors.gradientButton};
   ${props => props.theme.mediaQueries.sm} {
     display: flex;
+  }
+  &:hover {
+    background: ${props => props.theme.colors.gradientButton};
   }
 `

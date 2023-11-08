@@ -60,7 +60,7 @@ export const HeroButton = styled.button`
   width: max-content;
   color: black;
   border-radius: 40px;
-  border: '1px solid rgb(97; 218; 251)';
+  border: 1px solid rgb(97, 218, 251);
   padding: 0.5rem 2rem;
   background: ${props => props.theme.colors.gradientButton};
 `

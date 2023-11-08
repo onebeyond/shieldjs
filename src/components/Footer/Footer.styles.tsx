@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const FooterWrapper = styled.footer`
   background-color: transparent;
   border-top: 1px solid #ddd;
-  color: #fff;
+  color: ${props => props.theme.colors.white};;
   margin: 0 2rem;
   padding: 0.5rem 0;
   ${props => props.theme.mediaQueries.md} {
@@ -57,7 +57,7 @@ export const MenuListItem = styled.li`
 `
 
 export const Subtitle = styled.h3`
-  color: #fff;
+  color: ${props => props.theme.colors.white};;
   padding: 0; // Add to reset.css
   margin: 0; // Add to reset.css
   text-align: left;
@@ -68,7 +68,7 @@ export const Subtitle = styled.h3`
 `
 
 export const Title = styled.h2`
-  color: #fff;
+  color: ${props => props.theme.colors.white};;
   padding: 0; // Add to reset.css
   margin: 0; // Add to reset.css
   text-align: left;

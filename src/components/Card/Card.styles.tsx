@@ -1,11 +1,12 @@
 import styled from 'styled-components'
+import { StyledButton } from '../Button/Button.styles'
 
 export const CardWrapper = styled.div`
   overflow: hidden;
   padding: 20px 10px;
   margin: 48px auto 0;
   width: 300px;
-  background-color: #fff;
+  background-color: ${props => props.theme.colors.white};;
   box-shadow: 0 0 20px rgba(0, 0, 0, .05);
   border-radius: 5px;
 `
@@ -31,22 +32,16 @@ export const CardContent = styled.div`
   color: #000;
 `
 
-export const CardButton = styled.button`
-  display: block;
+export const CardButton = styled(StyledButton)`
   width: 100%;
   padding: 12px 0;
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
+  color: ${props => props.theme.colors.white};
   background-color: #e5195f;
-  border: 0;
   border-radius: 35px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, .08);
-  cursor: pointer;
+  border: none;
   transition: all .25s cubic-bezier(.02, .01, .47, 1);
   &:hover {
-    box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
     transform: translate(0, -5px);
+    background-color: #e14179;
   }
 `
