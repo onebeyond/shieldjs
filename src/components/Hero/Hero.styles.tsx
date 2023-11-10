@@ -2,6 +2,7 @@ import { styled } from '@/stitches.config'
 
 export const HeroSection = styled('section', {
   display: 'flex',
+  flexGrow: 1,
   justifyContent: 'center',
   alignItems: 'center',
   background: '$gradientBlueToGray',
