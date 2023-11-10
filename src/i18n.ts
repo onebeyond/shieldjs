@@ -13,7 +13,7 @@ import {
   textTwoES,
   titleEN,
   titleES
-} from './constants/about-texts'
+} from '@/constants/about-texts'
 import {
   heroTitle,
   heroButtonEN,
@@ -22,7 +22,14 @@ import {
   heroDescriptionES,
   heroSubtitleEN,
   heroSubtitleES
-} from './constants/hero-texts'
+} from '@/constants/hero-texts'
+import {
+  contactUsTitleEN, contactUsTitleES,
+  footerTitleEN,
+  footerTitleES,
+  oneBeyondSubtitleEN,
+  oneBeyondSubtitleES
+} from '@/constants/footer-texts'
 
 const resources = {
   en: {
@@ -46,7 +53,14 @@ const resources = {
       HeroTitle: heroTitle,
       HeroSubtitle: heroSubtitleEN,
       HeroDescription: heroDescriptionEN,
-      HeroButton: heroButtonEN
+      HeroButton: heroButtonEN,
+      Footer: {
+        FooterTitle: footerTitleEN,
+        OneBeyondSubtitle: oneBeyondSubtitleEN,
+        ContactUsTitle: contactUsTitleEN
+      },
+      TechnologiesTitle: 'Which technologies do we use?',
+      TechnologiesSubtitle: 'We provide the latest technology stack to make the best product'
     }
   },
   es: {
@@ -71,7 +85,14 @@ const resources = {
       HeroTitle: heroTitle,
       HeroSubtitle: heroSubtitleES,
       HeroDescription: heroDescriptionES,
-      HeroButton: heroButtonES
+      HeroButton: heroButtonES,
+      Footer: {
+        FooterTitle: footerTitleES,
+        OneBeyondSubtitle: oneBeyondSubtitleES,
+        ContactUsTitle: contactUsTitleES
+      },
+      TechnologiesTitle: '¿Qué tecnologías usamos?',
+      TechnologiesSubtitle: 'Ofrecemos la última tecnología para hacer el mejor producto'
     }
   }
 }

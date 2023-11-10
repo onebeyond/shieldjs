@@ -1,5 +1,7 @@
 import { NavBar } from '@/components/NavBar'
 import React from 'react'
+import { Main, MainWrapper } from '@/layout/MainLayout/MainLayout.styles'
+import Footer from '@/components/Footer/Footer'
 
 type MainLayoutProps = {
   children: React.ReactNode;
@@ -7,9 +9,10 @@ type MainLayoutProps = {
 
 export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <>
-    <NavBar />
-      <main>{children}</main>
-    </>
+    <MainWrapper>
+      <NavBar />
+      <Main>{children}</Main>
+      <Footer />
+    </MainWrapper>
   )
 }

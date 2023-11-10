@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/5376a30f6ea18bc3eb88/maintainability)](https://codeclimate.com/github/onebeyond/shieldjs/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5376a30f6ea18bc3eb88/test_coverage)](https://codeclimate.com/github/onebeyond/shieldjs/test_coverage)
+
 <h1 style="display: flex;flex-direction: column;align-items: center">
   <br>
   <a href="https://github.com/onebeyond/shieldjs"><img src="./src/assets/shieldjs.svg" alt="Shield.js" width="200"></a>
