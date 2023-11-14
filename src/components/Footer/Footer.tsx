@@ -8,18 +8,20 @@ import {
 import slackLogo from '@/assets/slack.svg'
 import githubLogo from '@/assets/github.svg'
 import oneBeyondLogo from '@/assets/one-beyond.svg'
-import { t } from 'i18next'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation('footer')
+
   return (
     <FooterWrapper>
       <LeftColumn>
-        <Title> {t('Footer.FooterTitle')}</Title>
-        <Subtitle>{t('Footer.OneBeyondSubtitle')}</Subtitle>
+        <Title> {t('title')}</Title>
+        <Subtitle>{t('subtitle')}</Subtitle>
         <OneBeyondIcon src={oneBeyondLogo} alt='one-beyond'/>
       </LeftColumn>
       <RightColumn>
-        <Title>{t('Footer.ContactUsTitle')}</Title>
+        <Title>{t('contact')}</Title>
         <MenuList>
           <MenuListItem>
             <a href="#" target="_blank" rel="noreferrer">
