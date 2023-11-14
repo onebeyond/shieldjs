@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/5376a30f6ea18bc3eb88/maintainability)](https://codeclimate.com/github/onebeyond/shieldjs/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5376a30f6ea18bc3eb88/test_coverage)](https://codeclimate.com/github/onebeyond/shieldjs/test_coverage)
+
 <h1 style="display: flex;flex-direction: column;align-items: center">
   <br>
   <a href="https://github.com/onebeyond/shieldjs"><img src="./src/assets/shieldjs.svg" alt="Shield.js" width="200"></a>
@@ -43,7 +46,6 @@ That is why, for frontline developers, we have created Shield.js
   - <a href="https://www.typescriptlang.org/"><img src="./src/assets/typescript.svg" alt="typescript" width="10"> TypeScript</a>
   - <a href="https://vitejs.dev/"><img src="./src/assets/vite.svg" alt="vite" width="10"> Vite</a>
   - <a href="https://playwright.dev/"><img src="./src/assets/playwright.svg" alt="playwright" width="10"> Playwright</a>
-  - <a href="https://storybook.js.org/"><img src="./src/assets/storybook.svg" alt="storybook" width="10"> Storybook</a>
   - <a href="https://www.hygen.io/"><img src="./src/assets/hygen.svg" alt="hygen" width="10"> Hygen</a>
   - <a href="https://stitches.dev/"><img src="./src/assets/stitches.svg" alt="stitches" width="10"> Stitches</a>
 
