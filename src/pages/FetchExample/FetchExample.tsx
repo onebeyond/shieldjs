@@ -52,7 +52,7 @@ function FetchExample () {
       <h1>{t('title')}</h1>
       <div className="card">
         <Button onClick={() => setCount((count) => count + 1)}>
-          {t('TotalCount', { count })}
+          {t('totalCount', { count })}
         </Button>
         <Card image={character?.image || ''} onClick={() => console.log('click')}>
           <h2>{character?.name}</h2>
