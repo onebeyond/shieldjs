@@ -1,4 +1,3 @@
-
 const theme = {
   colors: {
     white: '#fff',

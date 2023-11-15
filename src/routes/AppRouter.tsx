@@ -1,7 +1,7 @@
 import { ReactElement } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { About } from '../pages/About'
-import { NoMatch } from '../pages/NoMatch'
+import { NotFound } from '../pages/NotFound'
 import FetchExample from '@/pages/FetchExample/FetchExample'
 import { Home } from '@/pages/Home'
 
@@ -28,9 +28,9 @@ const routes: RouteType[] = [
     element: <About />
   },
   {
-    key: 'no-match',
+    key: 'not-found',
     path: '/*',
-    element: <NoMatch />
+    element: <NotFound />
   }
 ]
 

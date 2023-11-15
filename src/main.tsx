@@ -1,4 +1,4 @@
-import './i18n'
+import './i18n/config'
 import './index.css'
 import theme from './styled.config'
 import { ThemeProvider } from 'styled-components'

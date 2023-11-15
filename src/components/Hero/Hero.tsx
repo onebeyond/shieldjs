@@ -12,15 +12,15 @@ import {
 import { useTranslation } from 'react-i18next'
 
 export const Hero: React.FC = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation('hero')
 
   return (
     <HeroSection>
       <HeroContent>
-        <HeroTitle>{t('HeroTitle')}</HeroTitle>
-        <HeroSubtitle>{t('HeroSubtitle', { interpolation: { escapeValue: true } })}</HeroSubtitle>
-        <HeroDescription>{t('HeroDescription')}</HeroDescription>
-        <HeroButton>{t('HeroButton')}</HeroButton>
+        <HeroTitle>{t('title')}</HeroTitle>
+        <HeroSubtitle>{t('subtitle', { interpolation: { escapeValue: true } })}</HeroSubtitle>
+        <HeroDescription>{t('description')}</HeroDescription>
+        <HeroButton>{t('button')}</HeroButton>
       </HeroContent>
       <HeroImage src={shieldjsLogo} alt="ShieldJS logo" />
     </HeroSection>
