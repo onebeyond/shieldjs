@@ -1,32 +1,41 @@
 {
-    "notFound": {
-        "title": "🥲 Upsss...",
-        "subtitle": "Esta página no existe",
-        "sendBack": "↩️ Sácame de aquí"
+  "notFound": {
+    "title": "🥲 Upsss...",
+    "subtitle": "Esta página no existe",
+    "sendBack": "↩️ Sácame de aquí"
+  },
+  "fetchExample": {
+    "title": "Vite + React = Shield.js",
+    "learnMore": "Pulsa en los iconos de Vite and React para saber más",
+    "editCode": "Edita y guarda el archivo <code>{{filename}}</code> para testear HMR",
+    "goWaste": "🗑 Llévame al fracaso",
+    "totalCount_one": "Has pinchado {{count}} vez",
+    "totalCount_other": "Has pinchado {{count}} veces"
+  },
+  "technologies": {
+    "title": "¿Qué tecnologías usamos?",
+    "subtitle": "Proporcionamos el stack tecnológico más moderno para crear el mejor producto"
+  },
+  "hero": {
+    "title": "Shield.js",
+    "subtitle": "El nuevo proyecto frontend de One\u00a0Beyond",
+    "description": "De desarrolladores, para desarrolladores. Facilita el comienzo con todas las herramientas del día a día instaladas en un solo lugar.",
+    "button": "Comenzar ahora"
+  },
+  "about": {
+    "title": "Somos.... SHIELD.JS",
+    "subtitle": "🧑‍🎨 Chapter de Frontend aka El Mejor Chapter 🏆",
+    "description": {
+      "p1": "Como ya sabréis, el Chapter de Frontend renació en agosto del 2022, como las películas de Spiderman. El equipo (re)original, liderado por Javier \"The Man\" Leal incluye al superhéroe de NextJS Iván Esteban, al gurú de React Alexis Reina y a la emergente superestrella desarrolladora Andrea Calvo. Las comparaciones con Marvel son inevitables. El equipo ha estado trabajando muy duro para darle al Chapter un gran empujón y recuperarse del fallido comienzo y posicionarse en primera línea, donde todos esperamos que permanezca.",
+      "p2": "Recientemente, hemos sido bendecidísimos con tres increíbles nuevas incorporaciones: el maestro Jose Manuel Torralvo, la leyenda Roberto Hernández y la joven promesa Francisco Molina (alias Franky).",
+      "p3": "Hemos estado trabajando en este template con mucho cariño 💚 para hacer el mundo más fácil y fancy, así que utilízalo y difrútalo."
     },
-    "fetchExample": {
-        "title": "Vite + React = Shield.js",
-        "learnMore": "Pulsa en los iconos de Vite and React para saber más",
-        "editCode": "Edita y guarda el archivo <code>{{filename}}</code> para testear HMR",
-        "goWaste": "🗑 Llévame al fracaso",
-        "totalCount_one": "Has pinchado {{count}} vez",
-        "totalCount_other": "Has pinchado {{count}} veces"
-    },
-    "hero": {
-        "title" : "Shield.js",
-        "subtitle" : "El nuevo proyecto frontend de One\u00a0Beyond",
-        "description" : "De desarrolladores, para desarrolladores. Facilita el comienzo con todas las herramientas del día a día instaladas en un solo lugar.",
-        "button" : "Comenzar ahora"
-    },
-    "about": {
-        "title": "Somos.... SHIELD.JS",
-        "subtitle": "🧑‍🎨 Chapter de Frontend aka El Mejor Chapter 🏆",
-        "description": {
-            "p1": "Como ya sabréis, el Chapter de Frontend renació en agosto del 2022, como las películas de Spiderman. El equipo (re)original, liderado por Javier \"The Man\" Leal incluye al superhéroe de NextJS Iván Esteban, al gurú de React Alexis Reina y a la emergente superestrella desarrolladora Andrea Calvo. Las comparaciones con Marvel son inevitables. El equipo ha estado trabajando muy duro para darle al Chapter un gran empujón y recuperarse del fallido comienzo y posicionarse en primera línea, donde todos esperamos que permanezca.",
-            "p2": "Recientemente, hemos sido bendecidísimos con tres increíbles nuevas incorporaciones: el maestro Jose Manuel Torralvo, la leyenda Roberto Hernández y la joven promesa Francisco Molina (alias Franky).",
-            "p3": "Hemos estado trabajando en este template con mucho cariño 💚 para hacer el mundo más fácil y fancy, así que utilízalo y difrútalo."
-        },
-        "conclusion": "¿Qué más decir...? Somos invencibles, somos Shield.JS",
-        "sendBack": "↩️ Suficiente purpurina, llévame de vuelta"
-    }
+    "conclusion": "¿Qué más decir...? Somos invencibles, somos Shield.JS",
+    "sendBack": "↩️ Suficiente purpurina, llévame de vuelta"
+  },
+  "footer": {
+    "title": "Shield.js",
+    "subtitle": "Desde 2022 - One\u00a0Beyond",
+    "contact": "Contacta con nosotros"
+  }
 }

@@ -1,32 +1,41 @@
 {
-    "notFound": {
-        "title": "🥲 Ooops...",
-        "subtitle": "This page doesn´t exist",
-        "sendBack": "↩️ Send me back"
+  "notFound": {
+    "title": "🥲 Ooops...",
+    "subtitle": "This page doesn´t exist",
+    "sendBack": "↩️ Send me back"
+  },
+  "fetchExample": {
+    "title": "Vite + React = Shield.js",
+    "learnMore": "Click on the Vite and React logos to learn more",
+    "editCode": "Edit <code>{{filename}}</code> and save to test HMR",
+    "goWaste": "🗑 Go to waste",
+    "totalCount_one": "You have clicked {{count}} time",
+    "totalCount_other": "You have clicked {{count}} times"
+  },
+  "technologies": {
+    "title": "Which technologies do we use?",
+    "subtitle": "We provide the latest technology stack to make the best product"
+  },
+  "hero": {
+    "title": "Shield.js",
+    "subtitle": "The new frontend project by One\u00a0Beyond",
+    "description": "From developers, to developers. Make the beginning easier with all daytools installed in one place.",
+    "button": "Start now"
+  },
+  "about": {
+    "title": "We are.... SHIELD.JS",
+    "subtitle": "🧑‍🎨 Frontend Chapter aka Best Chapter 🏆",
+    "description": {
+      "p1": "As you already might know, the Frontend chapter was rebooted in August, just like Spiderman movies. The (re)original team, led by the Javier \"The Man\" Leal includes NextJS superhero Iván Esteban, React guru Alexis Reina and the rising developer-superstar Andrea Calvo. The Marvel comparisons here are inevitable. The team has been working really hard to give the chapter a big push to recover from the failed start and be at the front-of-the line, where we all expect it to be.",
+      "p2": "Recently, we have been blessed with three new amazing recrutis, the master Jose Manuel Torralvo, the legend Roberto Hernández and the rising star Francisco Molina (a.k.a. Franky).",
+      "p3": "We have been working on this template with so much love 💚 to make the world easier and fancier, so just use it and enjoy it."
     },
-    "fetchExample": {
-        "title": "Vite + React = Shield.js",
-        "learnMore": "Click on the Vite and React logos to learn more",
-        "editCode": "Edit <code>{{filename}}</code> and save to test HMR",
-        "goWaste": "🗑 Go to waste",
-        "totalCount_one": "You have clicked {{count}} time",
-        "totalCount_other": "You have clicked {{count}} times"
-    },
-    "hero": {
-        "title": "Shield.js",
-        "subtitle": "The new frontend project by One\u00a0Beyond",
-        "description": "From developers, to developers. Make the beginning easier with all daytools installed in one place.",
-        "button": "Start now"
-    },
-    "about": {
-        "title": "We are.... SHIELD.JS",
-        "subtitle": "🧑‍🎨 Frontend Chapter aka Best Chapter 🏆",
-        "description": {
-            "p1": "As you already might know, the Frontend chapter was rebooted in August, just like Spiderman movies. The (re)original team, led by the Javier \"The Man\" Leal includes NextJS superhero Iván Esteban, React guru Alexis Reina and the rising developer-superstar Andrea Calvo. The Marvel comparisons here are inevitable. The team has been working really hard to give the chapter a big push to recover from the failed start and be at the front-of-the line, where we all expect it to be.",
-            "p2": "Recently, we have been blessed with three new amazing recrutis, the master Jose Manuel Torralvo, the legend Roberto Hernández and the rising star Francisco Molina (a.k.a. Franky).",
-            "p3": "We have been working on this template with so much love 💚 to make the world easier and fancier, so just use it and enjoy it."
-        },
-        "conclusion": "What to say... we are invincible now, we are Shield.JS",
-        "sendBack": "↩️ Enough glitter, send me back"
-    }
+    "conclusion": "What to say... we are invincible now, we are Shield.JS",
+    "sendBack": "↩️ Enough glitter, send me back"
+  },
+  "footer": {
+    "title": "Shield.js",
+    "subtitle": "Since 2022 - One\u00a0Beyond",
+    "contact": "Contact us"
+  }
 }
