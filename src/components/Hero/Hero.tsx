@@ -10,6 +10,7 @@ import {
   HeroButton
 } from './Hero.styles'
 import { useTranslation } from 'react-i18next'
+import { EditableText } from '../EditableText/EditableText'
 
 export const Hero: React.FC = () => {
   const { t } = useTranslation('hero')
@@ -17,7 +18,9 @@ export const Hero: React.FC = () => {
   return (
     <HeroSection>
       <HeroContent>
-        <HeroTitle>{t('title')}</HeroTitle>
+        <HeroTitle>
+          <EditableText name="HeroTitle" value={t('title')} />
+        </HeroTitle>
         <HeroSubtitle>{t('subtitle', { interpolation: { escapeValue: true } })}</HeroSubtitle>
         <HeroDescription>{t('description')}</HeroDescription>
         <HeroButton>{t('button')}</HeroButton>
