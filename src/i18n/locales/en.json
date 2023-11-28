@@ -4,6 +4,9 @@
     "subtitle": "This page doesn´t exist",
     "sendBack": "↩️ Send me back"
   },
+  "navBar": {
+    "startButton": "Start now"
+  },
   "navBarItems": {
     "docs": "Docs",
     "solutions": "Solutions",
