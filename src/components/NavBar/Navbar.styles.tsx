@@ -58,6 +58,13 @@ export const StyledMobileNavMenu = styled.ul<{ expanded: boolean }>`
   opacity: ${props => props.expanded ? 1 : 0}
 `
 
+export const StyledRightContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+`
+
 export const StyledImage = styled.img`
   height: 2rem;
   ${props => props.theme.mediaQueries.sm} {
