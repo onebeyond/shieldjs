@@ -4,6 +4,12 @@
     "subtitle": "This page doesn´t exist",
     "sendBack": "↩️ Send me back"
   },
+  "navBarItems": {
+    "docs": "Docs",
+    "solutions": "Solutions",
+    "fetchExample": "Fetch example",
+    "aboutUs": "About us"
+  },
   "fetchExample": {
     "title": "Vite + React = Shield.js",
     "learnMore": "Click on the Vite and React logos to learn more",
