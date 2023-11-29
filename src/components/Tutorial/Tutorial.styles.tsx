@@ -1,44 +1,43 @@
-import { styled } from '@/stitches.config'
+import { styled } from 'styled-components'
 
-export const TutorialSection = styled('section', {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexDirection: 'column',
-  background: '$gradientGrayToBlueToGray',
-  px: '$6',
-  py: '$7',
-  '@md': {
-    px: '6rem',
-    py: '4.5rem'
+export const TutorialSection = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: ${(props) => props.theme.colors.gradientGrayToBlueToGray};
+  padding: ${(props) => `${props.theme.space['7']} ${props.theme.space['6']}`};
+  ${(props) => props.theme.mediaQueries.md} {
+    gap: ${(props) => props.theme.space['3']};
+    padding: ${(props) => `${props.theme.space['4']} ${props.theme.space['6']}`};
   }
-})
+`
 
-export const TutorialTextsContainer = styled('div', {
-  display: 'flex',
-  flexDirection: 'column'
-})
+export const TutorialTextsContainer = styled.div`
+display: flex;
+flex-direction: column;
+`
 
-export const TutorialTitle = styled('h1', {
-  fontSize: '$6',
-  fontWeight: 'bold',
-  my: 0,
-  '@md': {
-    fontSize: '$7'
-  }
-})
+export const TutorialTitle = styled.h1`
+font-size: ${(props) => props.theme.fontSizes.lg};
+font-weight: bold;
+margin: 0;
+${(props) => props.theme.mediaQueries.md} {
+  font-size: ${(props) => props.theme.fontSizes.xl};
+}
+`
 
-export const TutorialSubtitle = styled('h2', {
-  fontSize: '$4',
-  fontWeight: 'normal',
-  my: '$4',
-  '@md': {
-    fontSize: '$5'
-  }
-})
+export const TutorialSubtitle = styled.h2`
+font-size: ${(props) => props.theme.fontSizes.md};
+font-weight: normal;
+margin: ${(props) => `${props.theme.space['4']} 0`};
+${(props) => props.theme.mediaQueries.md} {
+  font-size: ${(props) => props.theme.fontSizes.md};
+}
+`
 
-export const TutorialImage = styled('img', {
-  my: '$4',
-  maxWidth: '100%',
-  height: 'auto'
-})
+export const TutorialImage = styled.img`
+  margin: ${(props) => `${props.theme.space['4']} 0`};
+  max-width: 100%;
+  height: auto;
+`
