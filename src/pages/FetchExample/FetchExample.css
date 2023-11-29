@@ -63,11 +63,3 @@
     color: #888;
 }
 
-.language {
-    margin: 10px 5px;
-    padding: 0.25em 0.5em;
-    border: none;
-    background: rgba(255, 255, 255, 0.3);
-    font-size: 2em;
-    cursor: pointer;
-}

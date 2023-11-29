@@ -11,17 +11,10 @@ import { Card } from '@/components/Card'
 import { Button } from '@/components/Button'
 import { MainLayout } from '@/layout/MainLayout/MainLayout'
 
-const languages = [
-  { code: 'en', icon: '🇬🇧' },
-  { code: 'es', icon: '🇪🇸' }
-]
-
 function FetchExample () {
   const [count, setCount] = useState(0)
   const [character, setCharacter] = useState<Character | null>(null)
-  const { t, i18n } = useTranslation('fetchExample')
-
-  const handleOnLang = (code: string) => i18n.changeLanguage(code).then()
+  const { t } = useTranslation('fetchExample')
 
   const CHARACTER_ID = 1
 
@@ -31,13 +24,7 @@ function FetchExample () {
 
   return (
     <MainLayout>
-      <div>
-        {languages?.map(({ code, icon }) => (
-          <button className="language" key={code} onClick={() => handleOnLang(code)}>
-            {icon}
-          </button>
-        ))}
-      </div>
+
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
