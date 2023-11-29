@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { TechnologiesSection, TechnologiesImage, TechnologiesTitle, TechnologiesSubtitle, TechnologiesTextsContainer, TechnologiesList, TechnologiesListItem } from './Technologies.styles'
-import { technologiesImages } from '@/constants/technologies-images'
+import { technologiesImages } from '@/constants/images-components'
 
 export const Technologies: React.FC = () => {
   const { t } = useTranslation('technologies')

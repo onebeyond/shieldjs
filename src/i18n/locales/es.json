@@ -33,6 +33,10 @@
     "conclusion": "¿Qué más decir...? Somos invencibles, somos Shield.JS",
     "sendBack": "↩️ Suficiente purpurina, llévame de vuelta"
   },
+  "tutorial": {
+    "title": "F\u00e1cil de instalar, f\u00e1cil de usar",
+    "subtitle": "Clona nuestro repositorio de GitHub, instala las dependencias y ejecuta el proyecto"
+  },
   "footer": {
     "title": "Shield.js",
     "subtitle": "Desde 2022 - One\u00a0Beyond",

@@ -9,6 +9,8 @@ const theme = {
     red500: 'hsl(352,100%,62%)',
     gradientBlueToGray:
           'linear-gradient(0deg, rgba(30, 30, 30, 0.5) 0%, rgba(50, 86, 96, 0.8) 33.85%, #428293 62.5%, rgba(97, 218, 251, 0.75) 100%)',
+    gradientGrayToBlueToGray:
+          'linear-gradient(0deg, rgba(30, 30, 30, 0.5) 2.6%, #325660 19.79%, #428293 36.46%, rgba(97, 218, 251, 0.75) 52.08%, #428293 68.75%, #325660 84.90%, rgba(30, 30, 30, 0.50) 100%)',
     gradientButton:
           'linear-gradient(180deg, rgb(97, 218, 251) 3.35%, rgba(97, 218, 251, 0.22) 100.65%)'
   },

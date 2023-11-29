@@ -33,6 +33,10 @@
     "conclusion": "What to say... we are invincible now, we are Shield.JS",
     "sendBack": "↩️ Enough glitter, send me back"
   },
+  "tutorial": {
+    "title": "Easy to install, easy to use",
+    "subtitle": "Clone from our GitHub repository, install dependencies and run the project"
+  },
   "footer": {
     "title": "Shield.js",
     "subtitle": "Since 2022 - One\u00a0Beyond",
