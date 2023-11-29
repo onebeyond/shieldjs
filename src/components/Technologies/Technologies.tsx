@@ -4,13 +4,13 @@ import { TechnologiesSection, TechnologiesImage, TechnologiesTitle, Technologies
 import { technologiesImages } from '@/constants/images-components'
 
 export const Technologies: React.FC = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation('technologies')
 
   return (
     <TechnologiesSection>
       <TechnologiesTextsContainer>
-        <TechnologiesTitle>{t('TechnologiesTitle')}</TechnologiesTitle>
-        <TechnologiesSubtitle>{t('TechnologiesSubtitle')}</TechnologiesSubtitle>
+        <TechnologiesTitle>{t('title')}</TechnologiesTitle>
+        <TechnologiesSubtitle>{t('subtitle')}</TechnologiesSubtitle>
       </TechnologiesTextsContainer>
       <TechnologiesList>
         {technologiesImages.map(({ src, alt, key, href }) =>

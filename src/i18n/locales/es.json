@@ -12,6 +12,10 @@
     "totalCount_one": "Has pinchado {{count}} vez",
     "totalCount_other": "Has pinchado {{count}} veces"
   },
+  "technologies": {
+    "title": "¿Qué tecnologías usamos?",
+    "subtitle": "Proporcionamos el stack tecnológico más moderno para crear el mejor producto"
+  },
   "hero": {
     "title": "Shield.js",
     "subtitle": "El nuevo proyecto frontend de One\u00a0Beyond",
@@ -35,7 +39,7 @@
   },
   "footer": {
     "title": "Shield.js",
-    "subtitle": "Desde 2022 - One Beyond",
+    "subtitle": "Desde 2022 - One\u00a0Beyond",
     "contact": "Contacta con nosotros"
   }
 }

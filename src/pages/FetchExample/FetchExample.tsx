@@ -51,7 +51,7 @@ function FetchExample () {
       </div>
       <h1>{t('title')}</h1>
       <div className="card">
-        <Button primary onClick={() => setCount((count) => count + 1)}>
+        <Button onClick={() => setCount((count) => count + 1)}>
           {t('totalCount', { count })}
         </Button>
         <Card image={character?.image || ''} onClick={() => console.log('click')}>
