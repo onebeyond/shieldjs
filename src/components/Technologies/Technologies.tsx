@@ -1,16 +1,16 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { TechnologiesSection, TechnologiesImage, TechnologiesTitle, TechnologiesSubtitle, TechnologiesTextsContainer, TechnologiesList, TechnologiesListItem } from './Technologies.styles'
-import { technologiesImages } from '@/constants/technologies-images'
+import { technologiesImages } from '@/constants/images-components'
 
 export const Technologies: React.FC = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation('technologies')
 
   return (
     <TechnologiesSection>
       <TechnologiesTextsContainer>
-        <TechnologiesTitle>{t('TechnologiesTitle')}</TechnologiesTitle>
-        <TechnologiesSubtitle>{t('TechnologiesSubtitle')}</TechnologiesSubtitle>
+        <TechnologiesTitle>{t('title')}</TechnologiesTitle>
+        <TechnologiesSubtitle>{t('subtitle')}</TechnologiesSubtitle>
       </TechnologiesTextsContainer>
       <TechnologiesList>
         {technologiesImages.map(({ src, alt, key, href }) =>
