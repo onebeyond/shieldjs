@@ -4,8 +4,7 @@ import { StyledNavItem } from './NavBarItems.styles'
 import { useTranslation } from 'react-i18next'
 
 const MENU_ITEMS = [
-  { name: 'docs', path: '/' },
-  { name: 'solutions', path: '/' },
+  { name: 'home', path: '/' },
   { name: 'fetchExample', path: '/fetch-example' },
   { name: 'aboutUs', path: '/about' }
 ]

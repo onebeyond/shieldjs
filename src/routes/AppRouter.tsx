@@ -36,7 +36,7 @@ const routes: RouteType[] = [
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter basename='/shieldjs'>
+    <BrowserRouter basename='/shieldjs/'>
       <Routes>
         {routes.map(({ key, path, element }: RouteType) => (
           <Route key={key} path={path} element={element} />

@@ -8,8 +8,7 @@
     "startButton": "Comenzar ahora"
   },
   "navBarItems": {
-    "docs": "Docs",
-    "solutions": "Soluciones",
+    "home": "Home",
     "fetchExample": "Ejemplo de fetch",
     "aboutUs": "Sobre nosotros"
   },
