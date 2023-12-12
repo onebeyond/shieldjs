@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { LanguageButton } from './LanguageSelector.styles'
+import { useLocalStorage } from '@/hooks/useStorage'
 
 const languages = [
   { code: 'en', icon: '🇬🇧' },
@@ -12,7 +13,7 @@ interface LanguageSelectorProps {
 }
 
 export const LanguageSelector: React.FC<LanguageSelectorProps> = ({ defaultLanguage = 'en' }) => {
-  const [selectedLanguage, setSelectedLanguage] = useState(defaultLanguage)
+  const [selectedLanguage, setSelectedLanguage] = useLocalStorage('language', defaultLanguage)
   const { i18n } = useTranslation()
 
   const handleOnLang = (code: string) => {
