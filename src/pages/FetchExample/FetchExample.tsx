@@ -3,6 +3,7 @@ import { useTranslation, Trans } from 'react-i18next'
 
 import reactLogo from '@/assets/react.svg'
 import shieldjsLogo from '@/assets/shieldjs.svg'
+import viteLogo from '@/assets/vite.svg'
 import './FetchExample.css'
 import { Link } from 'react-router-dom'
 import { getCharacter } from '@/api/rickApi'
@@ -27,7 +28,7 @@ function FetchExample () {
 
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
