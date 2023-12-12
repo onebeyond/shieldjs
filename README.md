@@ -47,7 +47,7 @@ That is why, for frontline developers, we have created Shield.js
   - <a href="https://vitejs.dev/"><img src="./src/assets/vite.svg" alt="vite" width="10"> Vite</a>
   - <a href="https://playwright.dev/"><img src="./src/assets/playwright.svg" alt="playwright" width="10"> Playwright</a>
   - <a href="https://www.hygen.io/"><img src="./src/assets/hygen.svg" alt="hygen" width="10"> Hygen</a>
-  - <a href="https://stitches.dev/"><img src="./src/assets/stitches.svg" alt="stitches" width="10"> Stitches</a>
+  - <a href="https://styled-components.com/"><img src="./src/assets/styled-components.svg" alt="styled-components" width="10"> Styled Components</a>
 
 <br>
 
