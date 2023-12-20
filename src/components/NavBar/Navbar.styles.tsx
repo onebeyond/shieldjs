@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { StyledButton } from '../Button/Button.styles'
 
 export const StyledNavMenu = styled.ul`
   display: flex;
@@ -24,6 +23,8 @@ export const StyledMobileNav = styled.div`
 `
 
 export const StyledNav = styled.nav`
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,7 +32,7 @@ export const StyledNav = styled.nav`
   padding: 1rem 2rem;
   width: 100vw;
   height: 6.6rem;
-  box-shadow: 0 0 5px rgba(0,0,0,.2);
+  box-shadow: 0 9px 15px rgba(0,0,0,0.4);
   ${props => props.theme.mediaQueries.sm} {
     padding: 1rem 2rem;
   }
@@ -63,27 +64,12 @@ export const StyledRightContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  margin-left: auto;
 `
 
 export const StyledImage = styled.img`
   height: 2rem;
   ${props => props.theme.mediaQueries.sm} {
     height: 3rem;
-  }
-`
-
-export const StyledNavButton = styled(StyledButton)`
-  display: none;
-  color: black;
-  border-radius: 40px;
-  border: 1px solid rgb(97, 218, 251);
-  padding: 0.5rem 1rem;
-  min-width: auto;
-  background: ${props => props.theme.colors.gradientButton};
-  ${props => props.theme.mediaQueries.sm} {
-    display: flex;
-  }
-  &:hover {
-    background: ${props => props.theme.colors.gradientButton};
   }
 `

@@ -55,12 +55,17 @@ export const HeroImage = styled.img`
   }
 `
 
-export const HeroButton = styled.button`
+export const HeroButton = styled.a`
   margin: auto;
   width: max-content;
   color: black;
+  cursor: pointer;
+  text-decoration: none;
   border-radius: 40px;
   border: 1px solid rgb(97, 218, 251);
   padding: 0.5rem 2rem;
   background: ${props => props.theme.colors.gradientButton};
+  &:hover {
+    color: black;
+  }
 `

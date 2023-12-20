@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
         </HeroTitle>
         <HeroSubtitle>{t('subtitle', { interpolation: { escapeValue: true } })}</HeroSubtitle>
         <HeroDescription>{t('description')}</HeroDescription>
-        <HeroButton>{t('button')}</HeroButton>
+        <HeroButton href='#startNow'>{t('button')}</HeroButton>
       </HeroContent>
       <HeroImage src={shieldjsLogo} alt="ShieldJS logo" />
     </HeroSection>

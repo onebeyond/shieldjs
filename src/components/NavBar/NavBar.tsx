@@ -1,18 +1,16 @@
 import React, { useState } from 'react'
 import {
   StyledDesktopNav, StyledMobileNav,
-  StyledNav, StyledMobileNavMenu, StyledImage, StyledNavButton, StyledRightContainer
+  StyledNav, StyledMobileNavMenu, StyledImage, StyledRightContainer
 } from '@/components/NavBar/Navbar.styles'
 import shieldjsLogo from '@/assets/shieldjs.svg'
 import { Link } from 'react-router-dom'
 import { NavBarItems } from './components/NavBarItems/NavBarItems'
 import { HamburguerMenu } from './components/HamburguerMenu/HamburguerMenu'
 import { LanguageSelector } from './components/LanguageSelector'
-import { useTranslation } from 'react-i18next'
 
 export const NavBar: React.FC = () => {
   const [expanded, setExpanded] = useState(false)
-  const { t } = useTranslation('navBar')
 
   const handleToggleMenu = () => {
     setExpanded(!expanded)
@@ -38,9 +36,6 @@ export const NavBar: React.FC = () => {
 
       <StyledRightContainer>
         <LanguageSelector />
-        <StyledNavButton>
-          {t('startButton')}
-        </StyledNavButton>
       </StyledRightContainer>
 
     </StyledNav>

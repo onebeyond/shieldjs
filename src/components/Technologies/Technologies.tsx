@@ -12,7 +12,7 @@ export const Technologies: React.FC = () => {
         <TechnologiesTitle>{t('title')}</TechnologiesTitle>
         <TechnologiesSubtitle>{t('subtitle')}</TechnologiesSubtitle>
       </TechnologiesTextsContainer>
-      <TechnologiesList>
+      <TechnologiesList id="startNow">
         {technologiesImages.map(({ src, alt, key, href }) =>
         <TechnologiesListItem key={key}>
           <a href={href} target='_blank' rel="noreferrer">
